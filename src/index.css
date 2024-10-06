@@ -5,11 +5,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  direction: rtl;
 }
 
-body {
+body-forgot {
   font-family: "Noto Serif", serif, Ariel, Helvetica, sans-serif;
-  background: #d7d7d7;
+  background: #ffffff;
+  width: 1440px;
+  height: 1024px;
+}
+backF {
+  width: 748px;
+  height: 960px;
+  top: 32px;
+  left: 32px;
+  gap: 0px;
+  border-radius: 32px 32px 32px 32px;
+  opacity: 0px;
 }
 b {
   color: blue;
