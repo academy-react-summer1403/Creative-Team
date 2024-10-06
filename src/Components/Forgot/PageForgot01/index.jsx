@@ -1,14 +1,14 @@
 const firstPageForgot = () => {
   return (
     <>
-      <div className="body ">
-        <div className="rightSection flex flex-col">
+      <div className=" body">
+        <div className="rightSection">
           <div className="top">
-            <div className="right">
-              <div className="rectangle101">
+            <div className="right ">
+              <div className="rectangle101 ">
                 <img src="./src/assets/image/Rectangle 101.png" />
               </div>
-              <h5>واردکردن ایمیل</h5>
+              <h5 className=" font-bold">واردکردن ایمیل</h5>
             </div>
             <div className="left">
               <div className="rectangle102">
@@ -40,8 +40,12 @@ const firstPageForgot = () => {
           <div className="logo">
             <img src="./src/assets/image/logo.png" />
             <img src="./src/assets/image/logoTitle.png" />
-            <h3 className="vazir">شروع یک ماجراجویی</h3>
-            <h5>هر دوره ای که بخوای رو به راحتی پیدا کن و یاد بگیر</h5>
+            <h3 className='"font-mono" "text-3xl" "font-bold" "leading-10" "text-center"'>
+              شروع یک ماجراجویی
+            </h3>
+            <h5 className="text-red font-semibold">
+              هر دوره ای که بخوای رو به راحتی پیدا کن و یاد بگیر
+            </h5>
             <img src="./src/assets/image/coffee.png" />
           </div>
         </div>
