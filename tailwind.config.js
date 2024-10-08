@@ -14,6 +14,11 @@ export default {
         body: ["nunito"],
         vazir: ["Vazir"],
       },
+      screens: {
+        mobile: "393px",
+        sourcePage: "1440px",
+        modalComment: "851px",
+      },
     },
   },
   plugins: [],
