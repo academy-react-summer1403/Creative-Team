@@ -18,6 +18,10 @@ export default {
         mobile: "393px",
         sourcePage: "1440px",
         modalComment: "851px",
+        leftSection: "748px",
+      },
+      boxShadow: {
+        neon: "0 0 5px theme('color.purple.200),",
       },
     },
   },
