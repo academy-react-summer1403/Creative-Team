@@ -7,7 +7,14 @@
   box-sizing: border-box;
   direction: rtl;
 }
-
+.bodyTopBlogLanding {
+  width: 10361px;
+  height: 546px;
+  top: 2554px;
+  left: 39px;
+  gap: 48px;
+  opacity: 0px;
+}
 body-forgot {
   font-family: "Noto Serif", serif, Ariel, Helvetica, sans-serif;
   background: #ffffff;
@@ -26,7 +33,6 @@ backF {
 b {
   color: blue;
 }
-
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
 @import "./index.css";
