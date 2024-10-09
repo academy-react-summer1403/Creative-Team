@@ -3,7 +3,7 @@ import React from "react";
 const secondPageForgot = () => {
   return (
     <>
-      <div className="body flex flex-row border-1 justify-evenly ">
+      <div className="body sourcePage flex flex-row border-1 justify-evenly ">
         <div className="rightSection m-5 ml-15 ">
           <div className="top flex flex-row justify-content-between mt-1.5">
             <div className="right ml-5 flex flex-col">
@@ -65,7 +65,7 @@ const secondPageForgot = () => {
                 تایید رمز عبور{" "}
               </button>
             </div>
-            <div className="w-28 h-10 text-left  pt-8 pr-16 pb-8 pl-32">
+            <div className="w-28 h-10 text-left place-self-center pt-8  pb-8 ml-20">
               <input
                 type="image"
                 className="l-90 pl-5"
@@ -76,7 +76,7 @@ const secondPageForgot = () => {
           </div>
         </div>
         {/* <div className="left border-2 bg-gray-200"></div> */}
-        <div className="logo leftSection flex m-2 w-9/12 h-full border-solid backF bg-slate-100 left-8 mt-0.5 rounded-l-3xl ">
+        <div className="logo  leftSection flex m-2 w-3/4 h-full border-solid backF bg-slate-100 left-8 mt-0.5 rounded-l-3xl ">
           <div className=" bg-slate-100">
             <div className="flex flex-row">
               <img className="size-10" src="./src/assets/image/logo.png" />
@@ -85,15 +85,15 @@ const secondPageForgot = () => {
                 src="./src/assets/image/logoTitle.png"
               />
             </div>
-            <h3 className="w-72 h-12 top-40 left-96 font-bold mt-12 bg-slate-100 text-right">
+            <h3 className="w-72 h-12 top-40 left-96 font-bold mt-20 bg-slate-100 text-right">
               شروع یک ماجراجویی
             </h3>
-            <h5 className="text-red font-semibold bg-slate-100 mt-0.1 text-right">
+            <h5 className="text-red font-semibold bg-slate-100 mt-0.05 text-right">
               هر دوره ای که بخوای رو به راحتی پیدا کن و یاد بگیر
             </h5>
-            <div className="flex items-stretch bg-slate-100">
+            <div className="flex mt-20 mr-20 bg-slate-100">
               <img
-                className="mt-20 self-centre bottom-44 ml-50"
+                className="mt-20 place-self-center bottom-44 "
                 src="./src/assets/image/coffee.png"
               />
             </div>

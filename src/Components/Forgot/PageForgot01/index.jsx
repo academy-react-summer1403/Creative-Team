@@ -56,7 +56,7 @@ const firstPageForgot = () => {
                 ارسال لینک
               </button>
             </div>
-            <div className="w-28 h-10 text-left  pt-8 pr-16 pb-8 pl-32">
+            <div className="w-28 h-10 text-left place-self-center pt-8 pr-16 pb-8 pl-32">
               <input
                 type="image"
                 className="l-90 pl-5"

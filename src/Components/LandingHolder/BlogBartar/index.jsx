@@ -3,9 +3,9 @@ import React from "react";
 const blogBartarLanding = () => {
   return (
     <>
-      <div className="‌BodytopBlogLanding h-96  flex flex-col">
+      <div className=" h-96  flex flex-col place-items-center ">
         <div className="topBlogLanding h-12 ">
-          <h2 className="text-2xl font-bold text-center mb-20">
+          <h2 className="text-2xl font-bold text-center mb-20 leading-10 ">
             {" "}
             بلاگهای برتر هفته
           </h2>
@@ -131,10 +131,10 @@ const blogBartarLanding = () => {
             </div>
           </div>
         </div>
-        <div className="moreTopBlogLanding">
-          <div className=" ">
+        <div className="moreTopBlogLanding ">
+          <div className="">
             <input
-              className="mt-20 font-thin w-32 h-10 ml-40  text-centre  border-solid border-2 bg-slate-800 rounded-3xl"
+              className="mt-20 boxShadow-neon  font-thin w-32 h-10 ml-20  text-centre  border-solid border-2 bg-slate-800 rounded-3xl"
               type="image"
               placeholder="مشاهده بیشتر"
               src="./src/assets/image/Frame 47.png"
