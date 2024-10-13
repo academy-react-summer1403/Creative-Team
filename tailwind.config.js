@@ -11,8 +11,7 @@ export default {
         },
       },
       fontFmily: {
-        body: ["nunito"],
-        vazir: ["Vazir"],
+        danaRegular: "dana-fanum regular",
       },
       screens: {
         mobile: "393px",
@@ -23,6 +22,7 @@ export default {
       boxShadow: {
         neon: "0 0 5px theme('color.purple.200),",
       },
+      darkMode: "class",
     },
   },
   plugins: [],

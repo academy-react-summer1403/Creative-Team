@@ -3,9 +3,9 @@ import React from "react";
 const blog = () => {
   return (
     <>
-      <div className="sourcePage ">
+      <div className="yellow-400  sm:bg-blue-300 dark:bg-indigo-950">
         {" "}
-        <div className="flex flex-col ">
+        <div className="sourcePage flex flex-col ">
           <div className="blogHeader flex justify-between">
             <div className="right flex flex-row">
               <div className="">
@@ -37,7 +37,7 @@ const blog = () => {
           </div>
           <div className="">
             <div className="topheader">
-              <h2 className="text-nowrap font-medium mt-8	text-4xl	 pb-2">
+              <h2 className="danaRegular text-nowrap font-medium mt-8	text-4xl	 pb-2">
                 اطلاعات بیشتر ، درک بهتر
               </h2>
             </div>
