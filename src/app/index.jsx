@@ -8,16 +8,18 @@ import React from "react";
 
 import "./App.css";
 import "../index.css";
+import CommentModalBlog from "../Components/Blogs/BlogDetail/BlogDetail-CommentModal/index.jsx";
 // import Blog from "../Components/Blogs/Blog/index.jsx";
-import BlogDetail from "../Components/Blogs/BlogDetail/index.jsx";
+// import BlogDetail from "../Components/Blogs/BlogDetail/index.jsx";
 // import { authRoutes } from "../Config/Router/Auth.router";
 // import Header from "../Components/Common/Header";
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
   return (
     <>
+      <CommentModalBlog />
       {/* <Header /> */}
-      <BlogDetail />
+      {/* <BlogDetail /> */}
       {/* <Blog /> */}
       {/* <BlogDetail /> */}
       {/* <TopBlogs /> */}
