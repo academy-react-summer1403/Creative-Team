@@ -14,8 +14,8 @@ export default {
         danaRegular: "dana-fanum regular",
       },
       screens: {
-        mobile: "393px",
-        sourcePage: "1440px",
+        sm: "395px",
+        md: "1440px",
         modalComment: "851px",
         leftSection: "748px",
       },

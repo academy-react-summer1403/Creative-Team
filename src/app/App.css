@@ -1,9 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 #root {
-  /* max-width: 1440px;
-  height: 1024px;
+  max-width: 1440px;
+  /* height: 1024px; */
   margin: 0 auto;
-  padding: 2rem; */
-  text-align: center;
+  padding: 2rem;
+  /* text-align: center; */
+  /* overflow: hidden; */
+  display: flex;
+  /* width: clamp(390px, 1440px, 2000px); */
 }
 
 .logo {
@@ -40,4 +46,60 @@
 
 .read-the-docs {
   color: #888;
+}
+@layer components {
+  .f1 {
+    font-family: DanaFaNum;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.02px;
+    text-align: right;
+    color: rgba(112, 112, 112, 1);
+    padding-right: 8px;
+    margin-top: 8px;
+  }
+  .f2 {
+    font-family: DanaFaNum;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.88px;
+    text-align: right;
+    color: black;
+    margin-top: 8px;
+    padding-right: 8px;
+  }
+  .f3 {
+    font-family: DanaFaNum;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.6px;
+    text-align: right;
+  }
+  .f4 {
+    font-family: DanaFaNum;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.6px;
+    text-align: right;
+    margin-top: 8px;
+    padding-right: 8px;
+  }
+  .f40 {
+    width: 219px;
+    height: 29px;
+    top: 1030px;
+    left: 1181px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .moreView {
+    width: Hug (125px) px;
+    height: Hug (39px) px;
+    top: 1389px;
+    left: 658px;
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+    border-radius: 40px 0px 0px 0px;
+    opacity: 0px;
+  }
 }
