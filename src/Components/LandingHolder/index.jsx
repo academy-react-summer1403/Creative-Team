@@ -1,6 +1,8 @@
 import React from "react";
 import HeroSection from "./HeroSection/HeroSection";
 import Header from "../Common/Header/header";
+import Footer from "../Common/Footer/Footer";
+import Content from "./Content/Content";
 
 const LandingHolder = () => {
   //here logic or in Folder Core
@@ -8,10 +10,9 @@ const LandingHolder = () => {
   return (
     <div>
       LandingHolder
-      {/* Header */}
       <Header />
-      {/* Hero Section */}
-      <HeroSection />
+      <Content />
+      <Footer />
     </div>
   );
 };
