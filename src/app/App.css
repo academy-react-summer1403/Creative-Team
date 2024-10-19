@@ -41,3 +41,25 @@
 .read-the-docs {
   color: #888;
 }
+
+.dashboardtopLogo {
+  width: 235px;
+  /* height: 42px; */
+  top: 24px;
+  left: 1181px;
+  gap: 0px;
+  opacity: 0px;
+}
+.dashboardtopStudent {
+  width: 130px px;
+  height: 48px px;
+  top: 11px;
+  left: 1012px;
+  gap: 8px;
+  opacity: 0px;
+  margin-right: 40px;
+}
+.dashboardtop3 {
+}
+.dashboardtop4 {
+}
