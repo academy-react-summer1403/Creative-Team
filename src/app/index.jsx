@@ -12,13 +12,13 @@ import "../index.css";
 // import Blog from "../Components/Blogs/Blog/index.jsx";
 import BlogDetail from "../Components/Blogs/BlogDetail/index.jsx";
 // import { authRoutes } from "../Config/Router/Auth.router";
-// import Header from "../Components/Common/Header";
+import Header from "../Components/Common/Header";
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
   return (
     <>
       {/* <CommentModalBlog /> */}
-      {/* <Header /> */}
+      <Header />
       <BlogDetail />
       {/* <Blog /> */}
       {/* <BlogDetail /> */}
