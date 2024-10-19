@@ -4,10 +4,17 @@ import React from "react";
 // import viteLogo from "./vite.svg";
 import "./App.css";
 // import { authRoutes } from "../Config/Router/Auth.router";
+import StudentDashboard from "../Components/Student/Student-dashBoard/StudentDashboard";
 
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
-  return <> Hello React {/* Routers */}</>;
+  return (
+    <>
+      {" "}
+      {/* Routers */}
+      <StudentDashboard />
+    </>
+  );
 
   // {
   //   isLoggedIn ? <Auth /> : <Public />;
