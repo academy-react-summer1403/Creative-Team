@@ -5,6 +5,7 @@ import React from "react";
 // import FirstPageForgot from "../Components/Forgot/PageForgot01/index.jsx";
 // import SecondPageForgot from "../Components/Forgot/PageForgot02/index.jsx";
 // import TopBlogs from "../Components/LandingHolder/BlogBartar/index.jsx";
+// import StudentDashboard from "../Components/Student/Student-dashBoard/StudentDashboard.jsx";
 
 import "./App.css";
 import "../index.css";
@@ -17,6 +18,7 @@ function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
   return (
     <>
+      {/* <StudentDashboard /> */}
       {/* <CommentModalBlog /> */}
 
       <BlogDetail />
