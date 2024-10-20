@@ -6,7 +6,7 @@ import React from "react";
 import "./App.css";
 // import { authRoutes } from "../Config/Router/Auth.router";
 import StudentDashboard from "../Components/Student/Student-dashBoard/StudentDashboard";
-
+// import CommonStructurePanel from "../Components/Student/Student-dashBoard/CommonStructurePanel/commonStructurePanel.jsx";
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
   return (
@@ -14,6 +14,9 @@ function App() {
       {" "}
       {/* Routers */}
       <StudentDashboard />
+      {/* <CommonStructurePanel /> */}
+      {/* <FirstPageForgot /> */}
+      {/* Routers */}
     </>
   );
 
