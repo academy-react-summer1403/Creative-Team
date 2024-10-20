@@ -1,182 +1,136 @@
 import React from "react";
+import LeftSideForm from "./LeftSideForm";
+import TabForm from "./TabForm";
 
 const index = () => {
   return (
     <>
       {/*      Register Page01 */}
-      <div className="register">
-        <div className="leftSideRegister">
-          <div className="logos">
-            <img className="logo" src="imgRegister/Untitled-1 3.svg" />
-            <img className="nameLogo" src="imgRegister/Untitled-1 4.svg" />
-          </div>
-          <div className="title">
-            <h2>شروع یک ماجراجویی</h2>
-            <p>هر دوره ای که بخوای رو به راحتی پیدا کن و یاد بگیر</p>
-          </div>
-          <div className="image"></div>
-        </div>
+      <div className="  w-[1300px] bg-white flex flex-row justify-center gap-10 mx-auto">
+        <LeftSideForm />
 
-        <div className="rightSideRegister">
-          <div className="tabs">
-            <div className="itemTabs itemTab1">
-              <div className="rectangle"></div>
-              <div className="titleTabRegister">وارد کردن اطلاعات شخصی</div>
+        <div className=" w-[500px] my-4">
+          <TabForm />
+          <div className=" flex flex-col gap-8 justify-center items-end my-7">
+            <div className=" mx-auto flex flex-col items-end justify-center gap-3 my-5">
+              <h2 className="font-bold text-lg text-black ">!خوش اومدی</h2>
+              <p className="text-sm text-right text-gray-500">
+                لطفا شماره همراه خود را وارد کنید تا کد تایید برای شما ارسال شود
+              </p>
             </div>
-            <div className="itemTabs itemTab2">
-              <div className="rectangle"></div>
-              <div className="titleTabRegister">تایید کد ارسال شده</div>
-            </div>
-            <div className="itemTabs itemTab3">
-              <div className="rectangle"></div>
-              <div className="titleTabRegister titleTab1">
-                وارد کردن شماره همراه
+
+            <div className=" mx-auto flex flex-col gap-3 items-end">
+              <div className="font-bold text-xs text-right text-black">
+                شماره همراه
               </div>
+              <input
+                type="text"
+                placeholder="شماره همراه خود را وارد کنید"
+                className="w-[400px] h-[48px] border border-gray-300 rounded-3xl text-right text-xs"
+              />
+            </div>
+            <div className=" w-[400px] h-[48px] mx-auto text-center text-white bg-blue-500 rounded-3xl leading-10 mb-4">
+              ارسال کد تایید
             </div>
           </div>
-
-          <div className="titleRegister">
-            <h2 className="titleRegister01">!خوش اومدی</h2>
-            <p className="titleRegister02">
-              لطفا شماره همراه خود را وارد کنید تا کد تایید برای شما ارسال شود
-            </p>
+          <div className=" flex flex-row justify-center gap-3 my-6">
+            <span className="text-blue-500 text-sm cursor-pointer font-bold underline">
+              ورود به حساب کاربری
+            </span>
+            <p className="text-sm font-bold">حساب کاربری دارید؟</p>
           </div>
-
-          <div className="input">
-            شماره همراه
-            <input
-              type="text"
-              placeholder="شماره همراه خود را وارد کنید"
-              className="phoneNumber"
-            />
-          </div>
-          <div className="sendCode">ارسال کد تایید</div>
-          <div className="accauntPart">
-            <p className="accauntPartQuestion">
-              حساب کاربری دارید؟<span>ورود به حساب کاربری</span>
-            </p>
-          </div>
-          <div className="homeBottom">
+          <div className=" w-[141px] h-[40px] border border-gray-400 bg-white rounded-3xl font-bold text-blue-500 text-right mx-auto leading-8 px-2">
             صفحه اصلی
+            <img className="-mt-7 ml-2" src="\imgRegister\home-04.png"></img>
             <div className="homeBottomIcon"></div>
           </div>
         </div>
       </div>
       {/*      Register Page02 */}
-      <div className="register">
-        <div className="leftSideRegister">
-          <div className="logos">
-            <img className="logo" src="imgRegister/Untitled-1 3.svg" />
-            <img className="nameLogo" src="imgRegister/Untitled-1 4.svg" />
-          </div>
-          <div className="title">
-            <h2>شروع یک ماجراجویی</h2>
-            <p>هر دوره ای که بخوای رو به راحتی پیدا کن و یاد بگیر</p>
-          </div>
-          <div className="image"></div>
-        </div>
+      <div className="  w-[1300px] bg-white flex flex-row justify-center gap-10 mx-auto">
+        <LeftSideForm />
         <div className="rightSideRegister">
-          <div className="tabs">
-            <div className="itemTabs itemTab1">
-              <div className="rectangle"></div>
-              <div className="titleTabRegister titleTab3">
-                وارد کردن اطلاعات شخصی
-              </div>
+          <TabForm />
+          <div className=" flex flex-col gap-8 justify-center items-end my-7">
+            <div className=" mx-auto flex flex-col items-end justify-center gap-3 my-5">
+              <h2 className="font-bold text-lg text-black ">
+                تایید کد ارسال شده{" "}
+              </h2>
+              <p className="text-sm text-right text-gray-500">
+                لطفا کد ارسال شده به شماره همراه 09381235486 را وارد کنید
+              </p>
             </div>
-            <div className="itemTabs itemTab2">
-              <div className="rectangle"></div>
-              <div className="titleTabRegister titleTab2">
-                تایید کد ارسال شده
-              </div>
-            </div>
-            <div className="itemTabs itemTab3">
-              <div className="rectangle"></div>
-              <div className="titleTabRegister titleTab1">
-                وارد کردن شماره همراه
-              </div>
-            </div>
-          </div>
-          <div className="titleRegister">
-            <h2 className="titleRegister01">تایید کد ارسال شده</h2>
-            <p className="titleRegister02">
-              لطفا کد ارسال شده به شماره همراه 09381235486 را وارد کنید
-            </p>
-          </div>
-          <div className="input">
-            کد تایید
-            <input
-              type="text"
-              placeholder="کد تایید خود را وارد کنید"
-              className="acceptNumber"
-            />
-          </div>
-          <div className="sendCode">تایید</div>
 
-          <div className="backBottom">
+            <div className=" mx-auto flex flex-col gap-3 items-end">
+              <div className="font-bold text-xs text-right text-black">
+                کد تایید
+              </div>
+              <input
+                type="text"
+                placeholder="کدتایید خود را وارد کنید "
+                className="w-[400px] h-[48px] border border-gray-300 rounded-3xl text-right text-xs"
+              />
+            </div>
+            <div className=" mr-12  bg-gray-200 rounded-3xl w-[180px] p-2 text-center">
+              <span className="text-blue-500 text-center font-bold text-xs">
+                01:00 ارسال مجدد کد تایید
+              </span>
+            </div>
+            <div className=" w-[400px] h-[48px] mx-auto text-center text-white bg-blue-500 rounded-3xl leading-10 mb-4">
+              تایید
+            </div>
+          </div>
+          <div className=" w-[111px] h-[40px] border border-gray-400 bg-white rounded-3xl font-bold text-blue-500 text-right mx-auto leading-8 px-2">
             بازگشت
-            <div className="backBottomIcon"></div>
+            <img
+              className="-mt-7 ml-2"
+              src="\imgRegister\arrow-left-01.png"
+            ></img>
+            <div className="homeBottomIcon"></div>
           </div>
         </div>
       </div>
       {/*      Register Page03 */}
-      <div className="register">
-        <div className="leftSideRegister">
-          <div className="logos">
-            <img className="logo" src="imgRegister/Untitled-1 3.svg" />
-            <img className="nameLogo" src="imgRegister/Untitled-1 4.svg" />
-          </div>
-          <div className="title">
-            <h2>شروع یک ماجراجویی</h2>
-            <p>هر دوره ای که بخوای رو به راحتی پیدا کن و یاد بگیر</p>
-          </div>
-          <div className="image"></div>
-        </div>
+      <div className="  w-[1300px] bg-white flex flex-row justify-center gap-10 mx-auto">
+        <LeftSideForm />
 
         <div className="rightSideRegister">
-          <div className="tabs">
-            <div className="itemTabs itemTab1">
-              <div className="rectangle"></div>
-              <div className="titleTabRegister titleTab3">
-                وارد کردن اطلاعات شخصی
-              </div>
+          <TabForm />
+          <div className=" flex flex-col gap-8 justify-center items-end my-7">
+            <div className="mr-12 flex flex-col items-end justify-center gap-3 my-5">
+              <h2 className="font-bold text-lg text-black ">
+                واردکردن اطلاعات شخصی
+              </h2>
+              <p className="text-sm text-right text-gray-500">
+                لطفا اطلاعات اولیه خواسته شده را وارد کنید
+              </p>
             </div>
-            <div className="itemTabs itemTab2">
-              <div className="rectangle"></div>
-              <div className="titleTabRegister titleTab2">
-                تایید کد ارسال شده
+
+            <div className=" mx-auto flex flex-col gap-3 items-end">
+              <div className="font-bold text-xs text-right text-black">
+                ایمیل
               </div>
+              <input
+                type="text"
+                placeholder="ایمیل خود را وارد کنید "
+                className="w-[400px] h-[48px] border border-gray-300 rounded-3xl text-right text-xs"
+              />
             </div>
-            <div className="itemTabs itemTab3">
-              <div className="rectangle"></div>
-              <div className="titleTabRegister titleTab1">
-                وارد کردن شماره همراه
+            <div className=" mx-auto flex flex-col gap-3 items-end">
+              <div className="font-bold text-xs text-right text-black">
+                رمزعبورجدید
               </div>
+              <input
+                type="pasword"
+                placeholder="رمزعبور جدید خود را وارد کنید "
+                className="w-[400px] h-[48px] border border-gray-300 rounded-3xl text-right text-xs"
+              />
+            </div>
+
+            <div className=" w-[400px] h-[48px] mx-auto text-center text-white bg-blue-500 rounded-3xl leading-10 mb-4">
+              تایید
             </div>
           </div>
-          <div className="titleRegister">
-            <h2 className="titleRegister01">وارد کردن اطلاعات شخصی</h2>
-            <p className="titleRegister02">
-              لطفا اطلاعات اولیه خواسته شده را وارد کنید
-            </p>
-          </div>
-          <div className="inputEmail">
-            ایمیل
-            <input
-              type="text"
-              placeholder="ایمیل خود را وارد کنید"
-              className="acceptEmail"
-            />
-          </div>
-          <div className="inputPassword">
-            رمز عبور جدید
-            <input
-              type="password"
-              placeholder="رمزعبور جدید خود را وارد کنید"
-              className="acceptPassword"
-            />
-            <div className="passIcon"></div>
-          </div>
-          <div className="sendInfo">تایید</div>
         </div>
       </div>
     </>

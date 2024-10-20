@@ -3,8 +3,8 @@ import React from "react";
 const index = () => {
   return (
     <>
-      <section className=" mobile:w-[1200px] w-[393px] mx-auto">
-        <div className=" flex flex-col justify-between items-center  laptop:gap-5 gap-3">
+      <section className=" mobile:w-[1200px] w-[393px] mx-auto my-20">
+        <div className="flex flex-col justify-between items-center mobile:gap-3 gap-5">
           <h1 className="font-bold font-serif mobile:text-3xl text-xl">
             شروع ماجراجویی جدید
           </h1>
@@ -14,7 +14,7 @@ const index = () => {
           </p>
         </div>
         <div className=" flex justify-center  gap-8 mt-4">
-          <div className=" w-3/4 ">
+          <div className="  mobile:w-3/4 w-full">
             <div className=" hidden mobile:block mobile:flex flex-row justify-end mr-10 mt-4 font-serif text-center font-semibold">
               <ul className="py-2">
                 <li className="inline border border-gray-600 rounded-3xl mx-2 py-1 px-2 font-serif text-center font-semibold">
@@ -42,245 +42,245 @@ const index = () => {
                 <img src="\imgLand\Frame 23.png"></img>
               </div>
             </div>
-            <div className="  flex flex-col items-center gap-5">
-              <div className="  ml-5 flex flex-wrap justify-around gap-1">
-                <div className=" flex flex-col items-start  w-1/4 p-0 gap-2">
-                  <img
-                    className="w-full h-3/4 rounded-lg flex flex-row"
-                    src="\imgLand\Group 12.png"
-                  ></img>
-                  {/* <span className="catOfCourse catOfCourse01">پیشرفته</span> */}
-                  {/* <span className="catOfCourse">برنامه نویسی</span> */}
 
-                  <div className=" flex flex-col gap-3 w-5/6 my-0 mx-auto">
-                    <h3 className=" mt-0 h-34px font-serif not-italic font-bold text-2xl leading-9 text-right text-black">
-                      دوره طراحی سایت
-                    </h3>
-                    <div className="  flex flex-row justify-between">
-                      <div className="flex flex-row gap-1">
-                        <span className="font-serif font-semibold text-sm text-black">
-                          تومان
-                        </span>
-                        <span className="text-sm"> 500000</span>
-                      </div>
-                      <span className="font-serif font-normal text-sm text-gray-700">
-                        محمدحسین بحرالعلومی
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div className=" flex flex-col items-start w-1/4 p-0 gap-2">
-                  <img
-                    className="w-full h-3/4 rounded-lg flex flex-row"
-                    src="\imgLand\Group 9.png"
-                  ></img>
-                  {/* <span className="catOfCourse catOfCourse01">پیشرفته</span> */}
-                  {/* <span className="catOfCourse">برنامه نویسی</span> */}
+            <div className="   mx-auto mobile:flex mobile:flex-wrap justify-around gap-1">
+              <div className="  flex flex-col items-start  mobile:w-1/4 w-fullmobile:w-1/4 w-full p-0 gap-2">
+                <img
+                  className="w-full h-3/4 rounded-lg flex flex-row"
+                  src="\imgLand\Group 12.png"
+                ></img>
+                {/* <span className="catOfCourse catOfCourse01">پیشرفته</span> */}
+                {/* <span className="catOfCourse">برنامه نویسی</span> */}
 
-                  <div className=" flex flex-col gap-3 w-5/6 my-0 mx-auto">
-                    <h3 className=" mt-0 h-34px font-serif not-italic font-bold text-2xl leading-9 text-right text-black">
-                      دوره ریکت
-                    </h3>
-                    <div className="  flex flex-row justify-between">
-                      <div className="flex flex-row gap-1">
-                        <span className="font-serif font-semibold text-sm text-black">
-                          تومان
-                        </span>
-                        <span className="text-sm"> 500000</span>
-                      </div>
-                      <span className="font-serif font-normal text-sm text-gray-700">
-                        محمدحسین بحرالعلومی
+                <div className=" flex flex-col gap-3 w-5/6 my-0 mx-auto">
+                  <h3 className=" mt-0 h-34px font-serif not-italic font-bold text-2xl leading-9 text-right text-black">
+                    دوره طراحی سایت
+                  </h3>
+                  <div className="  flex flex-row justify-between">
+                    <div className="flex flex-row gap-1">
+                      <span className="font-serif font-semibold text-sm text-black">
+                        تومان
                       </span>
+                      <span className="text-sm"> 500000</span>
                     </div>
-                  </div>
-                </div>
-                <div className=" flex flex-col items-start w-1/4 p-0 gap-2">
-                  <img
-                    className="w-full h-3/4 rounded-lg flex flex-row"
-                    src="\imgLand\Group 11.png"
-                  ></img>
-                  {/* <span className="catOfCourse catOfCourse01">پیشرفته</span> */}
-                  {/* <span className="catOfCourse">برنامه نویسی</span> */}
-
-                  <div className=" flex flex-col gap-3 w-5/6 my-0 mx-auto">
-                    <h3 className=" mt-0 h-34px font-serif not-italic font-bold text-2xl leading-9 text-right text-black">
-                      دوره جاوا اسکریپت
-                    </h3>
-                    <div className=" flex flex-row justify-between">
-                      <div className="flex flex-row gap-1">
-                        <span className="font-serif font-semibold text-sm text-black">
-                          تومان
-                        </span>
-                        <span className="text-sm"> 500000</span>
-                      </div>
-                      <span className="font-serif font-normal text-sm text-gray-700">
-                        محمدحسین بحرالعلومی
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div className=" flex flex-col items-start w-1/4 p-0 gap-2">
-                  <img
-                    className="w-full h-3/4 rounded-lg flex flex-row"
-                    src="\imgLand\Group 10.png"
-                  ></img>
-                  {/* <span className="catOfCourse catOfCourse01">پیشرفته</span> */}
-                  {/* <span className="catOfCourse">برنامه نویسی</span> */}
-
-                  <div className=" flex flex-col gap-3 w-5/6 my-0 mx-auto">
-                    <h3 className=" mt-0 h-34px font-serif not-italic font-bold text-2xl leading-9 text-right text-black">
-                      دوره فیگما
-                    </h3>
-                    <div className="  flex flex-row justify-between">
-                      <div className="flex flex-row gap-1">
-                        <span className="font-serif font-semibold text-sm text-black">
-                          تومان
-                        </span>
-                        <span className="text-sm"> 500000</span>
-                      </div>
-                      <span className="font-serif font-normal text-sm text-gray-700">
-                        محمدحسین بحرالعلومی
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div className=" flex flex-col items-start w-1/4 p-0 gap-2">
-                  <img
-                    className="w-full h-3/4 rounded-lg flex flex-row"
-                    src="\imgLand\Group 12.png"
-                  ></img>
-                  {/* <span className="catOfCourse catOfCourse01">پیشرفته</span> */}
-                  {/* <span className="catOfCourse">برنامه نویسی</span> */}
-
-                  <div className=" flex flex-col gap-3 w-5/6 my-0 mx-auto">
-                    <h3 className=" mt-0 h-34px font-serif not-italic font-bold text-2xl leading-9 text-right text-black">
-                      دوره طراحی سایت
-                    </h3>
-                    <div className="  flex flex-row justify-between">
-                      <div className="flex flex-row gap-1">
-                        <span className="font-serif font-semibold text-sm text-black">
-                          تومان
-                        </span>
-                        <span className="text-sm"> 500000</span>
-                      </div>
-                      <span className="font-serif font-normal text-sm text-gray-700">
-                        محمدحسین بحرالعلومی
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div className=" flex flex-col items-start w-1/4 p-0 gap-2">
-                  <img
-                    className="w-full h-3/4 rounded-lg flex flex-row"
-                    src="\imgLand\Group 11.png"
-                  ></img>
-                  {/* <span className="catOfCourse catOfCourse01">پیشرفته</span> */}
-                  {/* <span className="catOfCourse">برنامه نویسی</span> */}
-
-                  <div className=" flex flex-col gap-3 w-5/6 my-0 mx-auto">
-                    <h3 className=" mt-0 h-34px font-serif not-italic font-bold text-2xl leading-9 text-right text-black">
-                      دوره جاوا اسکریپت
-                    </h3>
-                    <div className=" flex flex-row justify-between">
-                      <div className="flex flex-row gap-1">
-                        <span className="font-serif font-semibold text-sm text-black">
-                          تومان
-                        </span>
-                        <span className="text-sm"> 500000</span>
-                      </div>
-                      <span className="font-serif font-normal text-sm text-gray-700">
-                        محمدحسین بحرالعلومی
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div className=" flex flex-col items-start w-1/4 p-0 gap-2">
-                  <img
-                    className="w-full h-3/4 rounded-lg flex flex-row"
-                    src="\imgLand\Group 9.png"
-                  ></img>
-                  {/* <span className="catOfCourse catOfCourse01">پیشرفته</span> */}
-                  {/* <span className="catOfCourse">برنامه نویسی</span> */}
-
-                  <div className=" flex flex-col gap-3 w-5/6 my-0 mx-auto">
-                    <h3 className=" mt-0 h-34px font-serif not-italic font-bold text-2xl leading-9 text-right text-black">
-                      دوره ریکت
-                    </h3>
-                    <div className="  flex flex-row justify-between">
-                      <div className="flex flex-row gap-1">
-                        <span className="font-serif font-semibold text-sm text-black">
-                          تومان
-                        </span>
-                        <span className="text-sm"> 500000</span>
-                      </div>
-                      <span className="font-serif font-normal text-sm text-gray-700">
-                        محمدحسین بحرالعلومی
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div className=" flex flex-col items-start w-1/4 p-0 gap-2">
-                  <img
-                    className="w-full h-3/4 rounded-lg flex flex-row"
-                    src="\imgLand\Group 10.png"
-                  ></img>
-                  {/* <span className="catOfCourse catOfCourse01">پیشرفته</span> */}
-                  {/* <span className="catOfCourse">برنامه نویسی</span> */}
-
-                  <div className=" flex flex-col gap-3 w-5/6 my-0 mx-auto">
-                    <h3 className=" mt-0 h-34px font-serif not-italic font-bold text-2xl leading-9 text-right text-black">
-                      دوره فیگما
-                    </h3>
-                    <div className=" flex flex-row justify-between">
-                      <div className="flex flex-row gap-1">
-                        <span className="font-serif font-semibold text-sm text-black">
-                          تومان
-                        </span>
-                        <span className="text-sm"> 500000</span>
-                      </div>
-                      <span className="font-serif font-normal text-sm text-gray-700">
-                        محمدحسین بحرالعلومی
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div className=" flex flex-col items-start w-1/4 p-0 gap-2">
-                  <img
-                    className="w-full h-3/4 rounded-lg flex flex-row"
-                    src="\imgLand\Group 11.png"
-                  ></img>
-                  {/* <span className="catOfCourse catOfCourse01">پیشرفته</span> */}
-                  {/* <span className="catOfCourse">برنامه نویسی</span> */}
-
-                  <div className=" flex flex-col gap-3 w-5/6 my-0 mx-auto">
-                    <h3 className=" mt-0 h-34px font-serif not-italic font-bold text-2xl leading-9 text-right text-black">
-                      دوره جاوا اسکریپت
-                    </h3>
-                    <div className=" flex flex-row justify-between">
-                      <div className="flex flex-row gap-1">
-                        <span className="font-serif font-semibold text-sm text-black">
-                          تومان
-                        </span>
-                        <span className="text-sm"> 500000</span>
-                      </div>
-                      <span className="font-serif font-normal text-sm text-gray-700">
-                        محمدحسین بحرالعلومی
-                      </span>
-                    </div>
+                    <span className="font-serif font-normal text-sm text-gray-700">
+                      محمدحسین بحرالعلومی
+                    </span>
                   </div>
                 </div>
               </div>
-              {/* ********************* pagition  */}
-              <div className=" my-10 mobile:w-[350px] w-[250px]">
-                <div className="bg-gray-200 p-4 rounded-2xl flex flex-row justify-between gap-6">
-                  <img src="\imgLand\arrow-left-01.png"></img>
-                  <i>1</i>
-                  <i>2</i>
-                  <i>3</i>
-                  <i>4</i>
-                  <img src="\imgLand\arrow-left.png"></img>
+              <div className=" flex flex-col items-start mobile:w-1/4 w-full p-0 gap-2">
+                <img
+                  className="w-full h-3/4 rounded-lg flex flex-row"
+                  src="\imgLand\Group 9.png"
+                ></img>
+                {/* <span className="catOfCourse catOfCourse01">پیشرفته</span> */}
+                {/* <span className="catOfCourse">برنامه نویسی</span> */}
+
+                <div className=" flex flex-col gap-3 w-5/6 my-0 mx-auto">
+                  <h3 className=" mt-0 h-34px font-serif not-italic font-bold text-2xl leading-9 text-right text-black">
+                    دوره ریکت
+                  </h3>
+                  <div className="  flex flex-row justify-between">
+                    <div className="flex flex-row gap-1">
+                      <span className="font-serif font-semibold text-sm text-black">
+                        تومان
+                      </span>
+                      <span className="text-sm"> 500000</span>
+                    </div>
+                    <span className="font-serif font-normal text-sm text-gray-700">
+                      محمدحسین بحرالعلومی
+                    </span>
+                  </div>
                 </div>
-                {/* <Swiper
+              </div>
+              <div className=" flex flex-col items-start mobile:w-1/4 w-full p-0 gap-2">
+                <img
+                  className="w-full h-3/4 rounded-lg flex flex-row"
+                  src="\imgLand\Group 11.png"
+                ></img>
+                {/* <span className="catOfCourse catOfCourse01">پیشرفته</span> */}
+                {/* <span className="catOfCourse">برنامه نویسی</span> */}
+
+                <div className=" flex flex-col gap-3 w-5/6 my-0 mx-auto">
+                  <h3 className=" mt-0 h-34px font-serif not-italic font-bold text-2xl leading-9 text-right text-black">
+                    دوره جاوا اسکریپت
+                  </h3>
+                  <div className=" flex flex-row justify-between">
+                    <div className="flex flex-row gap-1">
+                      <span className="font-serif font-semibold text-sm text-black">
+                        تومان
+                      </span>
+                      <span className="text-sm"> 500000</span>
+                    </div>
+                    <span className="font-serif font-normal text-sm text-gray-700">
+                      محمدحسین بحرالعلومی
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className=" flex flex-col items-start mobile:w-1/4 w-full p-0 gap-2">
+                <img
+                  className="w-full h-3/4 rounded-lg flex flex-row"
+                  src="\imgLand\Group 10.png"
+                ></img>
+                {/* <span className="catOfCourse catOfCourse01">پیشرفته</span> */}
+                {/* <span className="catOfCourse">برنامه نویسی</span> */}
+
+                <div className=" flex flex-col gap-3 w-5/6 my-0 mx-auto">
+                  <h3 className=" mt-0 h-34px font-serif not-italic font-bold text-2xl leading-9 text-right text-black">
+                    دوره فیگما
+                  </h3>
+                  <div className="  flex flex-row justify-between">
+                    <div className="flex flex-row gap-1">
+                      <span className="font-serif font-semibold text-sm text-black">
+                        تومان
+                      </span>
+                      <span className="text-sm"> 500000</span>
+                    </div>
+                    <span className="font-serif font-normal text-sm text-gray-700">
+                      محمدحسین بحرالعلومی
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className=" flex flex-col items-start mobile:w-1/4 w-full p-0 gap-2">
+                <img
+                  className="w-full h-3/4 rounded-lg flex flex-row"
+                  src="\imgLand\Group 12.png"
+                ></img>
+                {/* <span className="catOfCourse catOfCourse01">پیشرفته</span> */}
+                {/* <span className="catOfCourse">برنامه نویسی</span> */}
+
+                <div className=" flex flex-col gap-3 w-5/6 my-0 mx-auto">
+                  <h3 className=" mt-0 h-34px font-serif not-italic font-bold text-2xl leading-9 text-right text-black">
+                    دوره طراحی سایت
+                  </h3>
+                  <div className="  flex flex-row justify-between">
+                    <div className="flex flex-row gap-1">
+                      <span className="font-serif font-semibold text-sm text-black">
+                        تومان
+                      </span>
+                      <span className="text-sm"> 500000</span>
+                    </div>
+                    <span className="font-serif font-normal text-sm text-gray-700">
+                      محمدحسین بحرالعلومی
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className=" flex flex-col items-start mobile:w-1/4 w-full p-0 gap-2">
+                <img
+                  className="w-full h-3/4 rounded-lg flex flex-row"
+                  src="\imgLand\Group 11.png"
+                ></img>
+                {/* <span className="catOfCourse catOfCourse01">پیشرفته</span> */}
+                {/* <span className="catOfCourse">برنامه نویسی</span> */}
+
+                <div className=" flex flex-col gap-3 w-5/6 my-0 mx-auto">
+                  <h3 className=" mt-0 h-34px font-serif not-italic font-bold text-2xl leading-9 text-right text-black">
+                    دوره جاوا اسکریپت
+                  </h3>
+                  <div className=" flex flex-row justify-between">
+                    <div className="flex flex-row gap-1">
+                      <span className="font-serif font-semibold text-sm text-black">
+                        تومان
+                      </span>
+                      <span className="text-sm"> 500000</span>
+                    </div>
+                    <span className="font-serif font-normal text-sm text-gray-700">
+                      محمدحسین بحرالعلومی
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className=" flex flex-col items-start mobile:w-1/4 w-full p-0 gap-2">
+                <img
+                  className="w-full h-3/4 rounded-lg flex flex-row"
+                  src="\imgLand\Group 9.png"
+                ></img>
+                {/* <span className="catOfCourse catOfCourse01">پیشرفته</span> */}
+                {/* <span className="catOfCourse">برنامه نویسی</span> */}
+
+                <div className=" flex flex-col gap-3 w-5/6 my-0 mx-auto">
+                  <h3 className=" mt-0 h-34px font-serif not-italic font-bold text-2xl leading-9 text-right text-black">
+                    دوره ریکت
+                  </h3>
+                  <div className="  flex flex-row justify-between">
+                    <div className="flex flex-row gap-1">
+                      <span className="font-serif font-semibold text-sm text-black">
+                        تومان
+                      </span>
+                      <span className="text-sm"> 500000</span>
+                    </div>
+                    <span className="font-serif font-normal text-sm text-gray-700">
+                      محمدحسین بحرالعلومی
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className=" flex flex-col items-start mobile:w-1/4 w-full p-0 gap-2">
+                <img
+                  className="w-full h-3/4 rounded-lg flex flex-row"
+                  src="\imgLand\Group 10.png"
+                ></img>
+                {/* <span className="catOfCourse catOfCourse01">پیشرفته</span> */}
+                {/* <span className="catOfCourse">برنامه نویسی</span> */}
+
+                <div className=" flex flex-col gap-3 w-5/6 my-0 mx-auto">
+                  <h3 className=" mt-0 h-34px font-serif not-italic font-bold text-2xl leading-9 text-right text-black">
+                    دوره فیگما
+                  </h3>
+                  <div className=" flex flex-row justify-between">
+                    <div className="flex flex-row gap-1">
+                      <span className="font-serif font-semibold text-sm text-black">
+                        تومان
+                      </span>
+                      <span className="text-sm"> 500000</span>
+                    </div>
+                    <span className="font-serif font-normal text-sm text-gray-700">
+                      محمدحسین بحرالعلومی
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className=" flex flex-col items-start mobile:w-1/4 w-full p-0 gap-2">
+                <img
+                  className="w-full h-3/4 rounded-lg flex flex-row"
+                  src="\imgLand\Group 11.png"
+                ></img>
+                {/* <span className="catOfCourse catOfCourse01">پیشرفته</span> */}
+                {/* <span className="catOfCourse">برنامه نویسی</span> */}
+
+                <div className=" flex flex-col gap-3 w-5/6 my-0 mx-auto">
+                  <h3 className=" mt-0 h-34px font-serif not-italic font-bold text-2xl leading-9 text-right text-black">
+                    دوره جاوا اسکریپت
+                  </h3>
+                  <div className=" flex flex-row justify-between">
+                    <div className="flex flex-row gap-1">
+                      <span className="font-serif font-semibold text-sm text-black">
+                        تومان
+                      </span>
+                      <span className="text-sm"> 500000</span>
+                    </div>
+                    <span className="font-serif font-normal text-sm text-gray-700">
+                      محمدحسین بحرالعلومی
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* ********************* pagition  */}
+            <div className=" my-10 mobile:w-[350px] w-[230px] mx-auto">
+              <div className="bg-gray-200 p-4 rounded-2xl flex flex-row justify-between gap-6">
+                <img src="\imgLand\arrow-left-01.png"></img>
+                <i>1</i>
+                <i>2</i>
+                <i>3</i>
+                <i>4</i>
+                <img src="\imgLand\arrow-left.png"></img>
+              </div>
+              {/* <Swiper
                   className=" border border-blue-600 w-96 flex flex-row justify-center gap-1"
                   modules={[Navigation]}
                   navigation
@@ -310,17 +310,21 @@ const index = () => {
                     />
                   </SwiperSlide>
                 </Swiper> */}
-              </div>
             </div>
           </div>
           {/* ***************************************filter */}
           <div className="hidden mobile:block border border-gray-400 w-1/4 h-2/4 rounded-3xl mt-20 flex flex-col items-end gap-6 mr-5">
-            <h1 className="font-serif font-bold text-3xl mr-7 mt-4">فیلتر</h1>
+            <h1 className="font-serif font-bold text-3xl text-right mr-8 mt-4">
+              فیلتر
+            </h1>
             {/* جست جو */}
-            <div className="w-11/12 mr-3">
+            <div className="w-11/12 mx-auto mt-6">
               <div className="flex flex-row justify-end gap-2">
-                <span className="text-xl font-serif">جستجو</span>
-                <img src="\imgLand\search-01-stroke-rounded 1.png"></img>
+                <span className="text-lg font-serif">جستجو</span>
+                <img
+                  className="size-5 mt-2"
+                  src="\imgLand\search-01-stroke-rounded 1.png"
+                ></img>
               </div>
               <div className="mt-2">
                 <input
@@ -334,10 +338,13 @@ const index = () => {
               </div>
             </div>
             {/* دسته یندی */}
-            <div className="w-11/12 mr-3">
+            <div className="w-11/12 mx-auto mt-6">
               <div className="flex flex-row justify-end gap-2">
-                <span className="text-xl font-serif">دسته بندی</span>
-                <img src="public\imgLand\cells-stroke-rounded 1.png"></img>
+                <span className="text-lg font-serif">دسته بندی</span>
+                <img
+                  className="size-5 mt-2"
+                  src="\imgLand\cells-stroke-rounded 1.png"
+                ></img>
               </div>
               <div className="mt-2">
                 <input
@@ -351,10 +358,13 @@ const index = () => {
               </div>
             </div>
             {/* سطح آموزشی */}
-            <div className="w-11/12 mr-3">
+            <div className="w-11/12 mx-auto mt-6">
               <div className="flex flex-row justify-end gap-2">
-                <span className="text-xl font-serif">سطح آموزشی</span>
-                <img src="\imgLand\layers-01-stroke-rounded 2.png"></img>
+                <span className="text-lg font-serif">سطح آموزشی</span>
+                <img
+                  className="size-5 mt-2"
+                  src="\imgLand\layers-01-stroke-rounded 2.png"
+                ></img>
               </div>
               <div className="mt-2">
                 <input
@@ -368,10 +378,13 @@ const index = () => {
               </div>
             </div>
             {/* اساتید */}
-            <div className="w-11/12 mr-3">
+            <div className="w-11/12 mx-auto mt-6">
               <div className="flex flex-row justify-end gap-2">
-                <span className="text-2xl font-serif">اساتید</span>
-                <img src="\imgLand\teacher-stroke-rounded 1.png"></img>
+                <span className="text-lg font-serif">اساتید</span>
+                <img
+                  className="size-5 mt-2"
+                  src="\imgLand\teacher-stroke-rounded 1.png"
+                ></img>
               </div>
               <div className="mt-2">
                 <input
@@ -385,10 +398,13 @@ const index = () => {
               </div>
             </div>
             {/* قیمتها */}
-            <div className="w-11/12 mr-3">
+            <div className="w-11/12 mx-auto mt-6">
               <div className="flex flex-row justify-end gap-2">
-                <span className="text-2xl font-serif">قیمت</span>
-                <img src="\imgLand\money-04-stroke-rounded 2.png"></img>
+                <span className="text-lg font-serif">قیمت</span>
+                <img
+                  className="size-5 mt-2"
+                  src="\imgLand\money-04-stroke-rounded 2.png"
+                ></img>
               </div>
               <div className="flex flex-row justify-between mt-2">
                 <div>
@@ -406,12 +422,12 @@ const index = () => {
               </div>
             </div>
             {/* تاریخ */}
-            <div className="w-11/12 mr-3 mb-3">
+            <div className="w-11/12 mx-auto mt-6 mb-3">
               <div className="flex flex-row justify-end gap-2">
-                <span className="text-xl font-serif">تاریخ برگزاری-اتمام</span>
+                <span className="text-lg font-serif">تاریخ برگزاری-اتمام</span>
                 <img
-                  className="text-xl font-serif"
-                  src="public\imgLand\calendar-02-stroke-rounded 2.png"
+                  className="size-5 mt-2"
+                  src="\imgLand\calendar-02-stroke-rounded 2.png"
                 ></img>
               </div>
               <input
