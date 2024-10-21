@@ -20,22 +20,23 @@ import { Navigation, Pagination } from "swiper/modules";
 import FilterModal from "../Components/Courses/Course/FilterModal";
 import SortModal from "../Components/Courses/Course/SortModal";
 import Menu from "../Components/LandingHolder/Menu";
+import StudentPannel from "../Screen/Panels/StudentPannel";
+import Landing from "../Screen/Landing";
 
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
   return (
     <>
+      <StudentPannel />
+      {/* <Landing /> */}
       {/* <RegisterForm /> */}
       {/* <LoginForm /> */}
-      <Header />
 
-      {/* <Content /> */}
       {/* <Course /> */}
       {/* <FilterModal /> */}
       {/* <SortModal /> */}
       {/* <Menu /> */}
       {/* <CourseDetail />  */}
-      <Footer />
 
       {/* Routers */}
     </>
