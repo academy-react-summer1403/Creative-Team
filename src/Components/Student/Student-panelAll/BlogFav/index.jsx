@@ -1,6 +1,6 @@
 import React from "react";
-import SidePannel from "./sidePannel";
-import MenuPannel from "./MenuPannel";
+import MenuPannel from "../MyCourse/MenuPannel";
+import SidePannel from "../MyCourse/sidePannel";
 
 const index = () => {
   return (
@@ -35,7 +35,7 @@ const index = () => {
           </div>
           <div className="bg-white rounded-2xl w-11/12 mx-auto flex flex-col justify-center items-end text-right">
             <div className="w-[200px]  mr-10 mt-6 font-bold text-xl">
-              دوره من
+              بلاگ های مورد علاقه{" "}
             </div>
             <div className="  my-6 flex flex-row justify-around gap-20 mr-12">
               <div className="">
@@ -76,7 +76,7 @@ const index = () => {
             </div>
             <div className="w-11/12 mx-auto bg-gray-100 rounded-2xl flex flex-col">
               <div className="border bg-gray-200 w-full  mx-auto rounded-xl my-4 p-2 flex flex-row justify-between gap-16">
-                <span className="text-center text-xs ">دیدگاه ها</span>
+                <span className="text-center text-xs ">دیدگاه </span>
                 <span className="text-center text-xs ">سطح</span>
                 <span className="text-center text-xs ">تاریخ اتمام</span>
                 <span className="text-center text-xs ">تاریخ برگزاری</span>
@@ -96,7 +96,9 @@ const index = () => {
                 </div>
                 <div className="text-right text-xs font-bold">مهر 1403</div>
                 <div className="text-right text-xs font-bold">پیشرفته</div>
-                <div className="cursor-pointer">
+                <div className="cursor-pointer flex gap-1 size-4">
+                  <img src="\imgLand\cancel-01.png"></img>
+
                   <img src="\pannel\view(1).png"></img>
                 </div>
               </div>
@@ -111,7 +113,9 @@ const index = () => {
                 </div>
                 <div className="text-right text-xs font-bold">مهر 1403</div>
                 <div className="text-right text-xs font-bold">پیشرفته</div>
-                <div className="cursor-pointer">
+                <div className="cursor-pointer flex gap-1 size-4">
+                  <img src="\imgLand\cancel-01.png"></img>
+
                   <img src="\pannel\view(1).png"></img>
                 </div>
               </div>
@@ -126,7 +130,9 @@ const index = () => {
                 </div>
                 <div className="text-right text-xs font-bold">مهر 1403</div>
                 <div className="text-right text-xs font-bold">پیشرفته</div>
-                <div className="cursor-pointer">
+                <div className="cursor-pointer flex gap-1 size-4">
+                  <img src="\imgLand\cancel-01.png"></img>
+
                   <img src="\pannel\view(1).png"></img>
                 </div>
               </div>
@@ -141,7 +147,9 @@ const index = () => {
                 </div>
                 <div className="text-right text-xs font-bold">مهر 1403</div>
                 <div className="text-right text-xs font-bold">پیشرفته</div>
-                <div className="cursor-pointer">
+                <div className="cursor-pointer flex gap-1 size-4">
+                  <img src="\imgLand\cancel-01.png"></img>
+
                   <img src="\pannel\view(1).png"></img>
                 </div>
               </div>
@@ -156,7 +164,9 @@ const index = () => {
                 </div>
                 <div className="text-right text-xs font-bold">مهر 1403</div>
                 <div className="text-right text-xs font-bold">پیشرفته</div>
-                <div className="cursor-pointer">
+                <div className="cursor-pointer flex gap-1 size-4">
+                  <img src="\imgLand\cancel-01.png"></img>
+
                   <img src="\pannel\view(1).png"></img>
                 </div>
               </div>
@@ -171,7 +181,9 @@ const index = () => {
                 </div>
                 <div className="text-right text-xs font-bold">مهر 1403</div>
                 <div className="text-right text-xs font-bold">پیشرفته</div>
-                <div className="cursor-pointer">
+                <div className="cursor-pointer flex gap-1 size-4">
+                  <img src="\imgLand\cancel-01.png"></img>
+
                   <img src="\pannel\view(1).png"></img>
                 </div>
               </div>
@@ -186,7 +198,9 @@ const index = () => {
                 </div>
                 <div className="text-right text-xs font-bold">مهر 1403</div>
                 <div className="text-right text-xs font-bold">پیشرفته</div>
-                <div className="cursor-pointer">
+                <div className="cursor-pointer flex gap-1 size-4">
+                  <img src="\imgLand\cancel-01.png"></img>
+
                   <img src="\pannel\view(1).png"></img>
                 </div>
               </div>

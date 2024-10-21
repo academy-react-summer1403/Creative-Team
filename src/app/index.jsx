@@ -20,15 +20,25 @@ import { Navigation, Pagination } from "swiper/modules";
 import FilterModal from "../Components/Courses/Course/FilterModal";
 import SortModal from "../Components/Courses/Course/SortModal";
 import Menu from "../Components/LandingHolder/Menu";
-import StudentPannel from "../Screen/Panels/StudentPannel";
+import MyCourse from "../Components/Student/Student-panelAll/MyCourse";
 import Landing from "../Screen/Landing";
+import ReserveCourse from "../Components/Student/Student-panelAll/ReserveCourse";
+import CourseFav from "../Components/Student/Student-panelAll/CourseFav";
+import BlogFav from "../Components/Student/Student-panelAll/BlogFav";
+import ProfilePannel from "../Components/Student/Student-panelAll/ProfilePannel";
+import DarkMode from "../Components/Common/DarkMode";
 
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
   return (
     <>
-      <StudentPannel />
-      {/* <Landing /> */}
+      {/* <DarkMode /> */}
+      {/* <MyCourse /> */}
+      {/* <ReserveCourse /> */}
+      {/* <CourseFav /> */}
+      {/* <BlogFav /> */}
+      {/* <ProfilePannel /> */}
+      <Landing />
       {/* <RegisterForm /> */}
       {/* <LoginForm /> */}
 
