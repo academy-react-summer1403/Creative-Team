@@ -42,9 +42,9 @@ const studentDashboardWhiteSection = () => {
             بشناسید حال ندارم بخدا خستم
           </div>
         </div>
-        <div className="flex gap-6 justify-center border border-black h-[246px]">
-          <div className=" border border-black w-[801px] rounded-3xl">
-            <div className="flex justify-between p-4 ">
+        <div className="flex gap-6 justify-center  h-[246px]">
+          <div className="  w-[801px] rounded-3xl bg-slate-100 p-3">
+            <div className="flex justify-between p-2 ">
               <div className="">دوره من</div>
               <div className="flex gap-1 cursor-pointer">
                 <p className="text-blue-400 ">مشاهده بیشتر</p>
@@ -54,23 +54,153 @@ const studentDashboardWhiteSection = () => {
                 />
               </div>
             </div>
-            <div className="mx-auto w-[749px] h-[64px]  rounded-3xl flex justify-around  bg-slate-100">
+            <div className="mx-auto w-[749px] h-[60px]  rounded-3xl flex justify-around  bg-slate-200">
               <p className="m-auto">#</p>
               <p className="m-auto">نام</p>
               <p className="m-auto">مدرس</p>
               <p className="m-auto">تاریخ برگزاری</p>
               <p className="m-auto">سطح</p>
             </div>
-            <div className=""></div>
-            <div className=""></div>
+            <div className="flex justify-evenly gap-2 mt-2">
+              <div className="relative w-[83px] h-[52px]">
+                <img className="" src="src/assets/StudentImg/Rectangle 9.png" />
+                <img
+                  className="absolute top-3 right-6"
+                  src="src/assets/StudentImg/Rectangle.png"
+                />
+              </div>
+              <div className="f7">دوره فیگما</div>
+              <div className="f8">محمدحسین خلیل‌پور</div>
+              <div className="f8">29 اردیبهشت 1403</div>
+              <div className="">
+                {" "}
+                <img className="" src="src/assets/StudentImg/Frame 17.png" />
+              </div>
+              <div className="">
+                {" "}
+                <img className="" src="src/assets/StudentImg/view.png" />
+              </div>
+            </div>
+            <div className="">
+              <div className="flex justify-evenly gap-2 mt-2">
+                <div className="relative w-[83px] h-[52px] mr-3">
+                  <img
+                    className=""
+                    src="src/assets/StudentImg/Rectangle 49.png"
+                  />
+                  <img
+                    className="absolute top-3 right-6"
+                    src="src/assets/StudentImg/Rectangle.png"
+                  />
+                </div>
+                <div className="text-indent f7">دوره جاوااس...</div>
+                <div className="f8">محمدحسین بحرالعلومی</div>
+                <div className="f8">29 اردیبهشت 1403</div>
+                <div className="">
+                  {" "}
+                  <img
+                    className="ml-4"
+                    src="src/assets/StudentImg/Frame 17.png"
+                  />
+                </div>
+                <div className="ml-4">
+                  {" "}
+                  <img className="" src="src/assets/StudentImg/view.png" />
+                </div>
+              </div>
+            </div>
           </div>
-          <div className=" border border-black w-[253px] rounded-3xl">
-            چپ وسط
+          <div className=" w-[253px] rounded-3xl flex flex-col justify-evenly p-2">
+            <div className="flex justify-between ">
+              <p className="w-[173px] h-[20px] text-nowrap f8">
+                وضعیت اطلاعات حساب کاربری
+              </p>
+              <img
+                src="src/assets/StudentImg/pencil-edit-01-stroke-rounded 2.png"
+                className=""
+              />
+            </div>
+            <div className="relative w-[136px] h-[136px] m-auto">
+              <img
+                src="src/assets/StudentImg/Ellipse 30.png"
+                className="absolute m-auto"
+              />
+              <img
+                src="src/assets/StudentImg/Ellipse 31.png"
+                className="absolute m-auto"
+              />
+              <p className="absolute mr-12 mt-12 f9">۷۰</p>
+              <p className="absolute mr-10 mt-16 f10">٪</p>
+            </div>
+            <p className="f8 text-centre">اطلاعات حساب کاربری شما کامل نیست</p>
           </div>
         </div>
-        <div className="flex gap-1 border border-black h-[733px]">
-          3<div className=" border border-black">راست پایین</div>
-          <div className=" border border-black">چپ پایین</div>
+        <div className="flex justify-evenly mt-3 h-[733px]">
+          <div className=" ">
+            <div className=" mr-2  rounded-3xl bg-slate-100 p-3 w-[662px] h-[487px] ">
+              <div className="flex justify-between p-2 ">
+                <div className="">رزومه من</div>
+                <div className="flex gap-1 cursor-pointer">
+                  <p className="text-blue-400 ">مشاهده بیشتر</p>
+                  <img
+                    src="src/assets/StudentImg/arrow-left-01.png"
+                    className=""
+                  />
+                </div>
+              </div>
+              <div className="mx-auto w-[650px] h-[60px]  rounded-3xl flex justify-around  bg-slate-200">
+                <p className="m-auto">#</p>
+                <p className="m-auto">نام</p>
+                <p className="m-auto">مدرس</p>
+                <p className="m-auto">وضعیت</p>
+              </div>
+              <div className="flex justify-evenly gap-2 mt-2">
+                <div className="relative w-[83px] h-[52px]">
+                  <img
+                    className=""
+                    src="src/assets/StudentImg/Rectangle 9.png"
+                  />
+                  <img
+                    className="absolute top-3 right-6"
+                    src="src/assets/StudentImg/Rectangle.png"
+                  />
+                </div>
+                <div className="f7">دوره فیگما</div>
+                <div className="f8">محمدحسین خلیل‌پور</div>
+                <div className="f8">
+                  <img className="" src="src/assets/StudentImg/Frame 123.png" />
+                </div>
+                <div className="">
+                  {" "}
+                  <img className="" src="src/assets/StudentImg/view.png" />
+                </div>
+                <div className="">
+                  {" "}
+                  <img className="" src="src/assets/StudentImg/cancel-01.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className=" w-[392px] h-[487px]  rounded-3xl bg-slate-100">
+            <div className="">
+              <div className="flex justify-between p-2 ">
+                <div className="">رزومه من</div>
+                <div className="flex gap-1 cursor-pointer">
+                  <p className="text-blue-400 ">مشاهده بیشتر</p>
+                  <img
+                    src="src/assets/StudentImg/arrow-left-01.png"
+                    className=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="flex">
+              <p className="border-b text- "> ---------------------- </p>
+              <p className="">دوره ها و بلاگ ها</p>
+              <p className="border-b ">---------------------</p>
+            </div>
+            <div className=""></div>
+          </div>
         </div>
       </div>
     </div>
