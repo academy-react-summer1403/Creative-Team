@@ -5,7 +5,8 @@ import React from "react";
 // import FirstPageForgot from "../Screen/Forgot/PageForgot01/index.jsx";
 import "./App.css";
 // import { authRoutes } from "../Config/Router/Auth.router";
-import StudentDashboard from "../Components/Student/Student-dashBoard/StudentDashboard";
+// import StudentDashboard from "../Components/Student/Student-dashBoard/StudentDashboard";
+import StudentDashboardWhiteSection from "../Components/Student/Student-dashBoard/CommonStructurePanel/studentDashboardWhiteSection.jsx";
 // import CommonStructurePanel from "../Components/Student/Student-dashBoard/CommonStructurePanel/commonStructurePanel.jsx";
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -13,7 +14,8 @@ function App() {
     <>
       {" "}
       {/* Routers */}
-      <StudentDashboard />
+      {/* <StudentDashboard /> */}
+      <StudentDashboardWhiteSection />
       {/* <CommonStructurePanel /> */}
       {/* <FirstPageForgot /> */}
       {/* Routers */}
