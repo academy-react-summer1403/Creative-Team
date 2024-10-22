@@ -6,7 +6,7 @@ const index = () => {
   return (
     <>
       {/*      Register Page01 */}
-      <div className="  w-[1300px] bg-white flex flex-row justify-center gap-10 mx-auto">
+      <div className="  w-[1300px] bg-white flex flex-row justify-center gap-10 mx-auto my-20">
         <LeftSideForm />
 
         <div className=" w-[500px] my-4">
@@ -47,7 +47,7 @@ const index = () => {
         </div>
       </div>
       {/*      Register Page02 */}
-      <div className="  w-[1300px] bg-white flex flex-row justify-center gap-10 mx-auto">
+      <div className="  w-[1300px] bg-white flex flex-row justify-center gap-10 mx-auto my-20">
         <LeftSideForm />
         <div className="rightSideRegister">
           <TabForm />
@@ -91,7 +91,7 @@ const index = () => {
         </div>
       </div>
       {/*      Register Page03 */}
-      <div className="  w-[1300px] bg-white flex flex-row justify-center gap-10 mx-auto">
+      <div className="  w-[1300px] bg-white flex flex-row justify-center gap-10 mx-auto my-20">
         <LeftSideForm />
 
         <div className="rightSideRegister">

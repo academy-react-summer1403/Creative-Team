@@ -1,18 +1,34 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const index = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [theme, setTheme] = useState(null);
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
+  useEffect(() => {
+    if (window.matchMedia("prefer-color-scheme: dark").matches) {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+  }, []);
+
+  useEffect(() => {
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [theme]);
+
+  const handleDarkMode = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
   };
   return (
     <>
       <botton
-        onClick={toggleDarkMode}
-        className="bg-black w-10 h-10 border-black rounded-3xl cursor-pointer text-white text-center"
+        onClick={handleDarkMode}
+        className="bg-gray-600 w-10 h-10 rounded-3xl cursor-pointer text-white text-center"
       >
-        {darkMode ? (
+        {theme ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

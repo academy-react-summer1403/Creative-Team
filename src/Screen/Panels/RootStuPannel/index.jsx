@@ -2,23 +2,16 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import MenuPannel from "../../../Components/Student/Student-panelAll/MyCourse/MenuPannel";
 import SidePannel from "../../../Components/Student/Student-panelAll/MyCourse/sidePannel";
+import DarkMode from "../../../Components/Common/DarkMode";
 
 const index = () => {
   return (
     <>
-      {/* <Dashboard /> */}
-      {/* <MyCourse /> */}
-      {/* <ReserveCourse /> */}
-      {/* <CourseFav /> */}
-      {/* <BlogFav /> */}
-      {/* <ProfilePannel /> */}
       <div className="w-[1345px]  bg-black flex flex-row justify-center gap-5">
         <div className="flex flex-col w-4/5 justify-items-center my-3">
           <div className=" w-11/12 h-[80px] mx-auto flex flex-row justify-evenly gap-36">
             <div className=" flex flex-row justify-evenly gap-2 items-center">
-              <div className="bg-gray-800 rounded-full w-[40px] h-[40px] cursor-pointer">
-                <img className="mt-2 ml-2" src="\pannel\moon-02(1).png"></img>
-              </div>
+              <DarkMode />
               <div className="bg-gray-800 rounded-full w-[40px] h-[40px]">
                 <img
                   className="mt-2 ml-2 cursor-pointer"

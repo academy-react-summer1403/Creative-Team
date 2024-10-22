@@ -96,7 +96,7 @@ const index = () => {
                 <span className="text-center text-xs ">#</span>
               </div>
 
-              <div className="border border-red-500 w-full h-1/5 my-4 p-2 flex flex-row-reverse justify-between gap-16 items-center ">
+              <div className=" w-full h-1/5 my-4 p-2 flex flex-row-reverse justify-between gap-16 items-center ">
                 <div className="w-[45px] h-[45px] ">
                   <img className="w-full" src="\imgLand\p2.PNG"></img>
                 </div>
@@ -112,7 +112,7 @@ const index = () => {
                   <img src="\pannel\view(1).png"></img>
                 </div>
               </div>
-              <div className="border border-red-500 w-full h-1/5 my-4 p-2 flex flex-row-reverse justify-between gap-16 items-center ">
+              <div className=" w-full h-1/5 my-4 p-2 flex flex-row-reverse justify-between gap-16 items-center ">
                 <div className="w-[45px] h-[45px] ">
                   <img className="w-full" src="\imgLand\p2.PNG"></img>
                 </div>
@@ -128,7 +128,7 @@ const index = () => {
                   <img src="\pannel\view(1).png"></img>
                 </div>
               </div>
-              <div className="border border-red-500 w-full h-1/5 my-4 p-2 flex flex-row-reverse justify-between gap-16 items-center ">
+              <div className=" w-full h-1/5 my-4 p-2 flex flex-row-reverse justify-between gap-16 items-center ">
                 <div className="w-[45px] h-[45px] ">
                   <img className="w-full" src="\imgLand\p1.PNG"></img>
                 </div>
@@ -144,7 +144,7 @@ const index = () => {
                   <img src="\pannel\view(1).png"></img>
                 </div>
               </div>
-              <div className="border border-red-500 w-full h-1/5 my-4 p-2 flex flex-row-reverse justify-between gap-16 items-center ">
+              <div className=" w-full h-1/5 my-4 p-2 flex flex-row-reverse justify-between gap-16 items-center ">
                 <div className="w-[45px] h-[45px] ">
                   <img className="w-full" src="\imgLand\p2.PNG"></img>
                 </div>
@@ -160,7 +160,7 @@ const index = () => {
                   <img src="\pannel\view(1).png"></img>
                 </div>
               </div>
-              <div className="border border-red-500 w-full h-1/5 my-4 p-2 flex flex-row-reverse justify-between gap-16 items-center ">
+              <div className=" w-full h-1/5 my-4 p-2 flex flex-row-reverse justify-between gap-16 items-center ">
                 <div className="w-[45px] h-[45px] ">
                   <img className="w-full" src="\imgLand\p1.PNG"></img>
                 </div>
@@ -176,7 +176,7 @@ const index = () => {
                   <img src="\pannel\view(1).png"></img>
                 </div>
               </div>
-              <div className="border border-red-500 w-full h-1/5 my-4 p-2 flex flex-row-reverse justify-between gap-16 items-center ">
+              <div className=" w-full h-1/5 my-4 p-2 flex flex-row-reverse justify-between gap-16 items-center ">
                 <div className="w-[45px] h-[45px] ">
                   <img className="w-full" src="\imgLand\p2.PNG"></img>
                 </div>
@@ -192,7 +192,7 @@ const index = () => {
                   <img src="\pannel\view(1).png"></img>
                 </div>
               </div>
-              <div className="border border-red-500 w-full h-1/5 my-4 p-2 flex flex-row-reverse justify-between gap-16 items-center ">
+              <div className=" w-full h-1/5 my-4 p-2 flex flex-row-reverse justify-between gap-16 items-center ">
                 <div className="w-[45px] h-[45px] ">
                   <img className="w-full" src="\imgLand\p1.PNG"></img>
                 </div>

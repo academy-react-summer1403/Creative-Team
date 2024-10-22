@@ -6,7 +6,7 @@ const index = () => {
   return (
     <>
       {/* *********** Login 1 */}
-      <section className="  mobile:w-[1300px] w-[393px] bg-white mobile:flex mobile:flex-row mobile:justify-center mobile:gap-10 flex flex-col justify-between mx-auto">
+      <section className="  mobile:w-[1300px] w-[393px] bg-white mobile:flex mobile:flex-row mobile:justify-center mobile:gap-10 flex flex-col justify-between mx-auto my-20">
         <LeftSideForm />
         <div className="mobile:hidden w-[393px] flex flex-row justify-between">
           <div className="w-[141px] h-[40px] border border-gray-400 bg-white rounded-3xl font-bold text-blue-500 text-right mobile:mx-auto mx-0 leading-8 px-2  ">
@@ -80,7 +80,7 @@ const index = () => {
       </section>
 
       {/* **********Login 2 */}
-      <div className="  mobile:w-[1300px] w-[393px] bg-white mobile:flex mobile:flex-row mobile:justify-center mobile:gap-10 flex flex-col justify-between mx-auto">
+      <div className="  mobile:w-[1300px] w-[393px] bg-white mobile:flex mobile:flex-row mobile:justify-center mobile:gap-10 flex flex-col justify-between mx-auto my-20">
         <LeftSideForm />
         <div className="mobile:hidden w-[393px] flex flex-row justify-between">
           <div className="w-[111px] h-[40px] border border-gray-400 bg-white rounded-3xl font-bold text-blue-500 text-right mobile:mx-auto mx-0 leading-8 px-2">

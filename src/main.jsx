@@ -81,6 +81,14 @@ const router = createBrowserRouter([
     path: "*",
     element: <NotFound />,
   },
+  {
+    path: "/reservpannel",
+    element: <ReserveCourse />,
+  },
+  {
+    path: "/mycourse",
+    element: <MyCourse />,
+  },
 ]);
 createRoot(document.getElementById("root")).render(
   <StrictMode>

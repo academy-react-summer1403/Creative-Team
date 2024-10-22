@@ -16,8 +16,8 @@ const Header = () => {
                 ></img>
               </div>
             </div>
-            <div className="hidden mobile:flex flex-row justify-between gap-8 relative left-10 top-0 py-1 pl-1 pr-1 h-14 w-1/2 items-center bg-black rounded-full">
-              <bottom className=" text-center bg-blue-500 rounded-3xl cursor-pointer laptop:text-lg laptop:px-3 py-2 px-0 mobile:text-sm text-xs">
+            <div className="hidden mobile:flex flex-row justify-between gap-8 relative left-10 top-0 py-1 pl-1 pr-1 h-14 w-1/2 items-center bg-black dark:bg-gray-700 rounded-full">
+              <bottom className=" text-center bg-blue-500 rounded-3xl cursor-pointer laptop:text-lg laptop:px-3 py-2 px-0 mobile:text-sm text-xs dark:bg-blue-700">
                 <NavLink
                   to="/register"
                   className={({ isActive }) =>
