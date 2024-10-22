@@ -9,9 +9,7 @@ const LandingHolder = () => {
 
   return (
     <>
-      <Header />
       <Content />
-      <Footer />
     </>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import DarkMode from "../DarkMode";
+import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <>
@@ -15,17 +16,60 @@ const Header = () => {
                 ></img>
               </div>
             </div>
-            <div className="hidden mobile:flex flex-row gap-8 relative left-10 top-0 py-1 pl-1 pr-1 h-14 w-1/2 items-center bg-black rounded-full">
+            <div className="hidden mobile:flex flex-row justify-between gap-8 relative left-10 top-0 py-1 pl-1 pr-1 h-14 w-1/2 items-center bg-black rounded-full">
               <bottom className=" text-center bg-blue-500 rounded-3xl cursor-pointer laptop:text-lg laptop:px-3 py-2 px-0 mobile:text-sm text-xs">
-                ثبت نام یاورود
+                <NavLink
+                  to="/register"
+                  className={({ isActive }) =>
+                    `${isActive && "text-blue-400 font-extrabold"}`
+                  }
+                >
+                  ثبت نام یا ورود
+                </NavLink>
               </bottom>
 
-              <div className="flex flex-row items-center gap-10 p-0 font-serif not-italic font-medium text-base leading-5 text-white cursor-pointer">
-                <div>درباره ما</div>
-                <div>بلاگ ها</div>
-                <div>دوره ها</div>
-                <div>خانه</div>
-              </div>
+              <ul className=" flex flex-row justify-start gap-16 font-serif not-italic font-medium text-lg mr-8 p-3 leading-5 text-white cursor-pointer">
+                <li>
+                  <NavLink
+                    to="/about"
+                    className={({ isActive }) =>
+                      `${isActive && "text-blue-400 font-extrabold"}`
+                    }
+                  >
+                    درباره ما
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/blogs"
+                    className={({ isActive }) =>
+                      `${isActive && "text-blue-400 font-extrabold"}`
+                    }
+                  >
+                    بلاگ ها
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/courses"
+                    className={({ isActive }) =>
+                      `${isActive && "text-blue-400 font-extrabold"}`
+                    }
+                  >
+                    دوره ها
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                      `${isActive && "text-blue-400 font-extrabold"}`
+                    }
+                  >
+                    خانه
+                  </NavLink>
+                </li>
+              </ul>
             </div>
 
             <div className=" hidden mobile:flex flex-row items-center space-x-2 mt-1">
@@ -40,7 +84,9 @@ const Header = () => {
         {/******* Resp Mobile *** */}
         <div className=" p-3 m-3 flex flex-row justify-between gap-5 my-3 mobile:hidden">
           <div className=" flex flex-row justify-between gap-3">
-            <img src="\imgLand\Group 20.png"></img>
+            <div className="cursor-pointer">
+              <img src="\imgLand\Group 20(1).png"></img>
+            </div>
             <div className=" w-28 border border-gray-300 rounded-full flex flex-row justify-center gap-3">
               <div>
                 <img

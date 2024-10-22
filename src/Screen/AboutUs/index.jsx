@@ -1,10 +1,10 @@
 import React from "react";
-import StuPannel from "../../../Components/Student/StuPannel";
+import About from "../../Components/Common/About";
 
 const index = () => {
   return (
     <>
-      <StuPannel />
+      <About />
     </>
   );
 };

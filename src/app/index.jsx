@@ -27,6 +27,7 @@ import CourseFav from "../Components/Student/Student-panelAll/CourseFav";
 import BlogFav from "../Components/Student/Student-panelAll/BlogFav";
 import ProfilePannel from "../Components/Student/Student-panelAll/ProfilePannel";
 import DarkMode from "../Components/Common/DarkMode";
+import LoginForms from "../Screen/LoginForms";
 
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -38,9 +39,9 @@ function App() {
       {/* <CourseFav /> */}
       {/* <BlogFav /> */}
       {/* <ProfilePannel /> */}
-      <Landing />
+      {/* <Landing /> */}
       {/* <RegisterForm /> */}
-      {/* <LoginForm /> */}
+      {/* <LoginForms /> */}
 
       {/* <Course /> */}
       {/* <FilterModal /> */}
