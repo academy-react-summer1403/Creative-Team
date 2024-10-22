@@ -3,7 +3,6 @@ import React from "react";
 const StudentDashboard = () => {
   return (
     <div className="w-[1440px] h-[1024px] bg-black text-white flex flex-col">
-<<<<<<< HEAD
       <div className=" flex flex-row gap-1 h-[72px]  mr-4">
         <div className="dashboardtopLogo flex gap-3  my-auto">
           <div className=" my-auto ">
@@ -102,12 +101,7 @@ const StudentDashboard = () => {
           </li>
         </ul>
         <div className=" w-[1126px] h-[928px] bg-white rounded-3xl ml-6 text-black"></div>
-=======
-      <div className=" h-[84px] border border-white">1</div>
-      <div className="flex border h-[940px] border-white">
-        <div className="border border-white">2</div>
-        <div className="border border-white">3</div>
->>>>>>> developerM
+
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import React from "react";
 const blog = () => {
   return (
     <>
-      <div className="yellow-400  sm:bg-blue-300 dark:bg-indigo-950">
+      <div className="yellow-400   dark:bg-indigo-950">
         {" "}
         <div className="sourcePage flex flex-col ">
           <div className="blogHeader flex justify-between">

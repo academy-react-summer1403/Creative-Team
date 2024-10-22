@@ -2,13 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 #root {
-<<<<<<< HEAD
   /* max-width: 1280px; */
   margin: 0 auto;
   /* padding: 2rem; */
   text-align: center;
   direction: rtl;
-=======
   max-width: 1440px;
   /* height: 1024px; */
   margin: 0 auto;
@@ -17,7 +15,6 @@
   /* overflow: hidden; */
   display: flex;
   /* width: clamp(390px, 1440px, 2000px); */
->>>>>>> developerM
 }
 
 .logo {
@@ -55,7 +52,6 @@
 .read-the-docs {
   color: #888;
 }
-<<<<<<< HEAD
 
 .dashboardtopLogo {
   width: 235px;
@@ -125,7 +121,6 @@
   font-weight: 500;
   line-height: 20.02px;
   text-align: right;
-=======
 @layer components {
   .f1 {
     font-family: DanaFaNum;
@@ -205,5 +200,5 @@
     line-height: 25.74px;
     text-align: right;
   }
->>>>>>> developerM
+}
 }
