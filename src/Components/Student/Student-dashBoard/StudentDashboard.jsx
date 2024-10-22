@@ -100,9 +100,7 @@ const StudentDashboard = () => {
             <p className="">خروج از حساب کاربری</p>
           </li>
         </ul>
-        <div className=" w-[1126px] h-[928px] bg-white rounded-3xl ml-6 text-black">
-          3
-        </div>
+        <div className=" w-[1126px] h-[928px] bg-white rounded-3xl ml-6 text-black"></div>
       </div>
     </div>
   );
