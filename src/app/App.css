@@ -59,3 +59,27 @@
   opacity: 0px;
   margin-right: 40px;
 }
+.f5 {
+  font-family: DanaFaNum;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34.32px;
+  text-align: right;
+}
+.f1 {
+  font-family: DanaFaNum;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20.02px;
+  text-align: right;
+  color: rgba(112, 112, 112, 1);
+  padding-right: 8px;
+  margin-top: 8px;
+}
+.f6 {
+  font-family: DanaFaNum;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20.02px;
+  text-align: right;
+}
