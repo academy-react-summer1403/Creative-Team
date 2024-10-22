@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+<<<<<<< HEAD
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -26,46 +27,40 @@ a:hover {
 }
 
 body {
+=======
+* {
+>>>>>>> developerM
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+.bodyTopBlogLanding {
+  width: 10361px;
+  height: 546px;
+  top: 2554px;
+  left: 39px;
+  gap: 48px;
+  opacity: 0px;
+}
+body-forgot {
+  font-family: "Noto Serif", serif, Ariel, Helvetica, sans-serif;
+  background: #ffffff;
+  width: 1440px;
+  height: 1024px;
+}
+backF {
+  width: 748px;
+  height: 960px;
+  top: 32px;
+  left: 32px;
+  gap: 0px;
+  border-radius: 32px 32px 32px 32px;
+  opacity: 0px;
+}
+b {
+  color: blue;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import "./index.css";
