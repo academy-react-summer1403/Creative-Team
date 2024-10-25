@@ -33,7 +33,7 @@ const index = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white rounded-2xl w-11/12 h-[800px] mx-auto flex flex-col justify-center items-end text-right">
+          <div>
             <Outlet />
           </div>
         </div>

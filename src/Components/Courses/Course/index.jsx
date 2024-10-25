@@ -1,6 +1,8 @@
 import React from "react";
 
 const index = () => {
+  // function handleDetail(id) {}
+
   return (
     <>
       <section className=" mobile:w-[1200px] w-[393px] mx-auto my-20">
@@ -44,6 +46,20 @@ const index = () => {
             </div>
 
             <div className="   mx-auto mobile:flex mobile:flex-wrap justify-around gap-1">
+              {/* map */}
+              {/* {courses.map((item, index) => {
+          return (
+            <CardCourse
+              image={item.image}
+              title={item.title}
+              desc={item.desc}
+              date={date}
+              key={index}
+              onHandleDetail={handleDetail}
+              id={item.id}
+            />
+          );
+        })} */}
               <div className="  flex flex-col items-start  mobile:w-1/4 w-fullmobile:w-1/4 w-full p-0 gap-2">
                 <img
                   className="w-full h-3/4 rounded-lg flex flex-row"

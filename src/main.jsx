@@ -50,44 +50,34 @@ const router = createBrowserRouter([
     element: <RootStuPannel />,
     children: [
       // {
-      //   path: "/mycourse",
-      //   element: <MyCourse />,
+      //   path: "/pannel/mydashboard",
+      //   element: <MyDashboard />,
+      // },
+      {
+        path: "/pannel/mycourse",
+        element: <MyCourse />,
+      },
+      {
+        path: "/pannel/reservecourse",
+        element: <ReserveCourse />,
+      },
+      {
+        path: "/pannel/coursefav",
+        element: <CourseFav />,
+      },
+      {
+        path: "/pannel/blogfav",
+        element: <BlogFav />,
+      },
+      // {
+      //   path: "/pannel/profile",
+      //   element: <Profile />,
       // },
     ],
   },
-  // {
-  //   path: "/pannel",
-  //   element: <RootStuPannel />,
-  //   children: [
-  //     {
-  //       path: "/mycourse",
-  //       element: <MyCourse />,
-  //     },
-  //     {
-  //       path: "/reservecourse",
-  //       element: <ReserveCourse />,
-  //     },
-  //     {
-  //       path: "/coursefav",
-  //       element: <CourseFav />,
-  //     },
-  //     {
-  //       path: "/blogfav",
-  //       element: <BlogFav />,
-  //     },
-  //   ],
-  // },
   {
     path: "*",
     element: <NotFound />,
-  },
-  {
-    path: "/reservpannel",
-    element: <ReserveCourse />,
-  },
-  {
-    path: "/mycourse",
-    element: <MyCourse />,
   },
 ]);
 createRoot(document.getElementById("root")).render(

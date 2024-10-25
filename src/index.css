@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    dark: bg gray -950px;
+  }
+}
+
+.boxIcon {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.boxIcon1 {
+  background: #fff url(/imgLand/task-daily-01.png) no-repeat 50%;
+}
+.boxIcon2 {
+  background: #fff url(/imgLand/document-validation.png) no-repeat 50%;
+}
+.boxIcon3 {
+  background: #fff url(/imgLand/job-link.png) no-repeat 50%;
+}
+.boxIcon4 {
+  background: #fff url(/imgLand/message-user-01.png) no-repeat 50%;
+}

@@ -26,16 +26,16 @@ const index = () => {
     <>
       <botton
         onClick={handleDarkMode}
-        className="bg-gray-600 w-10 h-10 rounded-3xl cursor-pointer text-white text-center"
+        className="bg-black dark:bg-yellow-500 w-10 h-10 rounded-3xl cursor-pointer text-white text-center"
       >
-        {theme ? (
+        {theme === "dark" ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="size-6 ml-2 mt-2"
+            className="size-6 ml-2 mt-2 bg-yellow-500"
           >
             <path
               stroke-linecap="round"
@@ -50,7 +50,7 @@ const index = () => {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="size-6 ml-2 mt-2"
+            className="size-6 ml-2 mt-2 "
           >
             <path
               stroke-linecap="round"

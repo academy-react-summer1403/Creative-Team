@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const index = () => {
   return (
@@ -7,7 +8,7 @@ const index = () => {
         <a>ارتباط باما</a>
 
         <a>گزارش</a>
-        <a>صفحه اصلی</a>
+        <NavLink to="/">صفحه اصلی</NavLink>
       </div>
     </>
   );

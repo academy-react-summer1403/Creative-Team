@@ -4,9 +4,9 @@ import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <div className={'dark:bg-black ${darkMode && "dark"}'}>
+      <div className={'dark:bg-gray-950 ${darkMode && "dark"}'}>
         <section className="  mobile:w-[1300px] w-[395px] mx-auto ">
-          <header className=" w-full flex flex-row justify-center gap-44 my-3 ">
+          <header className=" w-full flex flex-row justify-center gap-44  ">
             <div className="hidden mobile:flex flex-row gap-1 w-24 h-10 mt-1 ">
               <DarkMode />
               <div className="w-10 h-10 bg-white border-gray-700 rounded-3xl cursor-pointer">
