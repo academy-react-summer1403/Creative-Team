@@ -5,7 +5,7 @@ const index = () => {
   const navigate = useNavigate();
   return (
     <>
-      <section className="  flex flex-col gap-8 mobile:w-[1300px] w-[393px] mx-auto  dark:bg-gray-950">
+      <section className="  flex flex-col gap-8 mobile:w-[1350px] w-[393px] mx-auto  dark:bg-gray-950">
         <section className="w-full  mobile:flex mobile:flex-row justify-between gap-10 my-20 mx-auto flex flex-col items-center">
           <div className="  flex flex-col gap-5 items-center my-5 mobile:w-72 mobile:mx-auto ">
             <h4 className="font-serif text-black dark:text-white leading-8 text-lg font-medium not-italic mobile:text-right text-center">
@@ -187,12 +187,12 @@ const index = () => {
           </div>
         </section>
         {/* *************************** Top Course***********************  */}
-        <section className=" w-[1300px] my-8  flex flex-col gap-3 items-center">
+        <section className=" w-[1350px] my-8  flex flex-col gap-3 items-center">
           <div className=" font-bold mobile:text-3xl text-2xl text-black leading-10 text-center dark:text-white">
             دوره های برتر هفته
           </div>
-          <div className="w-full flex flex-row gap-4 my-0">
-            <div className=" flex flex-col items-start p-0 gap-2 mobile:w-1/2 w-11/12 dark:bg-slate-200 dark:rounded-3xl">
+          <div className=" w-[1300px] flex flex-row justify-start gap-2 my-0">
+            <div className=" flex flex-col items-start p-0 gap-2 mobile:w-1/4 w-11/12 dark:bg-slate-200 dark:rounded-3xl">
               <img
                 className="w-full h-3/4 rounded-3xl  flex flex-row"
                 src="\imgLand\Group 12.png"
@@ -218,7 +218,7 @@ const index = () => {
               </div>
             </div>
 
-            <div className=" flex flex-col items-start p-0 gap-2  mobile:w-1/2 w-11/12 dark:bg-slate-200 dark:rounded-3xl">
+            <div className=" flex flex-col items-start p-0 gap-2  mobile:w-1/4 w-11/12 dark:bg-slate-200 dark:rounded-3xl">
               <img
                 className="w-full h-3/4 rounded-3xl  flex flex-row"
                 src="\imgLand\Group 11.png"
@@ -244,7 +244,7 @@ const index = () => {
               </div>
             </div>
 
-            <div className=" flex flex-col items-start p-0 gap-2 mobile:w-1/2 w-11/12 dark:bg-slate-200 dark:rounded-3xl">
+            <div className=" flex flex-col items-start p-0 gap-2 mobile:w-1/4 w-11/12 dark:bg-slate-200 dark:rounded-3xl">
               <img
                 className="w-full h-3/4 rounded-3xl  flex flex-row"
                 src="\imgLand\Group 10.png"
@@ -270,7 +270,7 @@ const index = () => {
               </div>
             </div>
 
-            <div className=" flex flex-col items-start p-0 gap-2 mobile:w-1/2 w-11/12 dark:bg-slate-200 dark:rounded-3xl">
+            <div className=" flex flex-col items-start p-0 gap-2 mobile:w-1/4 w-11/12 dark:bg-slate-200 dark:rounded-3xl">
               <img
                 className="w-full h-3/4 rounded-3xl flex flex-row"
                 src="\imgLand\Group 9.png"
@@ -304,12 +304,12 @@ const index = () => {
           </botton>
         </section>
         {/* *****************************Top Blogs ********************** */}
-        <section className="w-full my-8  flex flex-col gap-3 items-center">
+        <section className="  w-full my-8  flex flex-col gap-3 items-center">
           <div className=" font-bold mobile:text-3xl text-2xl text-black leading-10 text-center dark:text-white">
             بلاگ های برتر هفته
           </div>
-          <div className="  flex flex-row gap-4 my-0 mx-auto">
-            <div className=" flex flex-col items-start p-0 gap-2 mobile:w-1/3 w-11/12 dark:bg-slate-200 dark:rounded-3xl">
+          <div className=" flex flex-row justify-center gap-8 my-0 mx-auto">
+            <div className=" flex flex-col items-start p-0 gap-2 mobile:w-1/4 w-11/12 dark:bg-slate-200 dark:rounded-3xl">
               <img
                 className="w-full h-3/4 rounded-lg flex flex-row"
                 src="\imgLand\Group 8.png"
@@ -335,7 +335,7 @@ const index = () => {
               </div>
             </div>
 
-            <div className=" flex flex-col items-start p-0 gap-2  mobile:w-1/3 w-11/12 dark:bg-slate-200 dark:rounded-3xl">
+            <div className=" flex flex-col items-start p-0 gap-2  mobile:w-1/4 w-11/12 dark:bg-slate-200 dark:rounded-3xl">
               <img
                 className="w-full h-3/4 rounded-lg flex flex-row"
                 src="\imgLand\Group 13.png"
@@ -361,7 +361,7 @@ const index = () => {
               </div>
             </div>
 
-            <div className=" flex flex-col items-start p-0 gap-2 mobile:w-1/3 w-11/12 dark:bg-slate-200 dark:rounded-3xl">
+            <div className=" flex flex-col items-start p-0 gap-2 mobile:w-1/4 w-11/12 dark:bg-slate-200 dark:rounded-3xl">
               <img
                 className="w-full h-3/4 rounded-lg flex flex-row"
                 src="\imgLand\Group 14.png"
