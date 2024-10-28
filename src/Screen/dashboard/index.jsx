@@ -1,4 +1,5 @@
 import React from "react";
+import StudentDashboardWhiteSection from "./whiteSection/studentDashboardWhiteSection";
 
 const StudentDashboard = () => {
   return (
@@ -101,7 +102,7 @@ const StudentDashboard = () => {
           </li>
         </ul>
         <div className=" w-[1126px] h-[928px] bg-white rounded-3xl ml-6 text-black">
-          {" "}
+          <StudentDashboardWhiteSection />
         </div>
       </div>
     </div>
