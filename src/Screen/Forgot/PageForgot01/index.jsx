@@ -56,17 +56,17 @@ const firstPageForgot = () => {
                 ارسال لینک
               </button>
             </div>
-            <div className="w-28 h-10 text-left place-self-center pt-8 pr-16 pb-8 pl-32">
+            <div className="w-28 h-10 pt-8 pr-16 pb-8 pl-32">
               <input
                 type="image"
-                className="l-90 pl-5"
+                className="l-20 mr-20 pl-5 "
                 src="./src/assets/image/Frame 73.png"
                 placeholder="بازگشت"
               />
             </div>
           </div>
         </div>
-        <div className="logo leftSection flex m-2 w-9/12 h-full border-solid backF bg-slate-100 left-8 mt-0.5 rounded-l-3xl ">
+        <div className="logo leftSection p-8 flex w-[748px] h-[960px] m-2 w-9/12 h-full border-solid backF bg-slate-100 left-8 mt-0.5 rounded-l-3xl ">
           <div className=" bg-slate-100">
             <div className="flex flex-row">
               <img className="size-10" src="./src/assets/image/logo.png" />
@@ -75,15 +75,15 @@ const firstPageForgot = () => {
                 src="./src/assets/image/logoTitle.png"
               />
             </div>
-            <h3 className="w-72 h-12 top-40 left-96 font-bold mt-12 bg-slate-100 text-right">
+            <h3 className="w-72 h-12 f12 top-40 left-96 font-bold mt-16 bg-slate-100 text-right">
               شروع یک ماجراجویی
             </h3>
-            <h5 className="text-gray-slate-800 font-semibold bg-slate-100 mt-0.1 text-right">
+            <h5 className=" f11 font-semibold bg-slate-100 mt-4 text-right">
               هر دوره ای که بخوای رو به راحتی پیدا کن و یاد بگیر
             </h5>
             <div className="flex items-stretch bg-slate-100">
               <img
-                className="mt-20 self-centre bottom-44 ml-50"
+                className="mt-72 mx-40 self-centre bottom-44 ml-50"
                 src="./src/assets/image/coffee.png"
               />
             </div>
