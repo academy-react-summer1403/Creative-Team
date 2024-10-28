@@ -9,11 +9,11 @@ import "../index.css";
 
 // import StudentDashboardWhiteSection from "../Components/Student/Student-dashBoard/CommonStructurePanel/studentDashboardWhiteSection.jsx";
 // import CommonStructurePanel from "../Components/Student/Student-dashBoard/CommonStructurePanel/commonStructurePanel.jsx";
-// import FirstPageForgot from "../Components/Forgot/PageForgot01/index.jsx";
+import FirstPageForgot from "../Screen/Forgot/PageForgot01/index.jsx";
 // import SecondPageForgot from "../Components/Forgot/PageForgot02/index.jsx";
 // import TopBlogs from "../Components/LandingHolder/BlogBartar/index.jsx";
 // import StudentDashboard from "../Components/Student/Student-dashBoard/StudentDashboard.jsx";
-import StudentDashboard from "../Screen/dashboard/index.jsx";
+// import StudentDashboard from "../Screen/dashboard/index.jsx";
 // import CommentModalBlog from "../Components/Blogs/BlogDetail/BlogDetail-CommentModal/index.jsx";
 // import Blog from "../Components/Blogs/Blog/index.jsx";
 // import BlogDetail from "../Components/Blogs/BlogDetail/index.jsx";
@@ -26,10 +26,10 @@ function App() {
     <>
       {" "}
       {/* Routers */}
-      <StudentDashboard />
+      {/* <StudentDashboard /> */}
       {/* <StudentDashboardWhiteSection /> */}
       {/* <CommonStructurePanel /> */}
-      {/* <FirstPageForgot /> */}
+      <FirstPageForgot />
       {/* <StudentDashboard /> */}
       {/* <CommentModalBlog /> */}
       {/* <BlogDetail /> */}
