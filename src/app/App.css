@@ -79,14 +79,12 @@
   margin-right: 40px;
 }
 .f5 {
-  font-family: DanaFaNum;
   font-size: 24px;
   font-weight: 700;
   line-height: 34.32px;
   text-align: right;
 }
 .f1 {
-  font-family: DanaFaNum;
   font-size: 14px;
   font-weight: 500;
   line-height: 20.02px;
@@ -96,42 +94,36 @@
   margin-top: 8px;
 }
 .f6 {
-  font-family: DanaFaNum;
   font-size: 14px;
   font-weight: 600;
   line-height: 20.02px;
   text-align: right;
 }
 .f7 {
-  font-family: DanaFaNum;
   font-size: 16px;
   font-weight: 700;
   line-height: 22.88px;
   text-align: right;
 }
 .f8 {
-  font-family: DanaFaNum;
   font-size: 14px;
   font-weight: 600;
   line-height: 20.02px;
   text-align: right;
 }
 .f9 {
-  font-family: DanaFaNum;
   font-size: 32px;
   font-weight: 500;
   line-height: 45.02px;
   text-align: right;
 }
 .f10 {
-  font-family: DanaFaNum;
   font-size: 14px;
   font-weight: 500;
   line-height: 20.02px;
   text-align: right;
   @layer components {
     .f1 {
-      font-family: DanaFaNum;
       font-size: 14px;
       font-weight: 500;
       line-height: 20.02px;
@@ -141,7 +133,6 @@
       margin-top: 8px;
     }
     .f2 {
-      font-family: DanaFaNum;
       font-size: 16px;
       font-weight: 500;
       line-height: 22.88px;
@@ -151,14 +142,12 @@
       padding-right: 8px;
     }
     .f3 {
-      font-family: DanaFaNum;
       font-size: 20px;
       font-weight: 500;
       line-height: 28.6px;
       text-align: right;
     }
     .f4 {
-      font-family: DanaFaNum;
       font-size: 20px;
       font-weight: 700;
       line-height: 28.6px;
@@ -195,21 +184,18 @@
       background: rgba(252, 252, 252, 1);
     }
     .f5 {
-      font-family: DanaFaNum;
       font-size: 24px;
       font-weight: 700;
       line-height: 34.32px;
       text-align: right;
     }
     .f6 {
-      font-family: DanaFaNum;
       font-size: 18px;
       font-weight: 700;
       line-height: 25.74px;
       text-align: right;
     }
     .f11 {
-      font-family: DanaFaNum;
       font-size: 20px;
       font-weight: 600;
       line-height: 28.6px;
@@ -217,12 +203,18 @@
       color: rgba(112, 112, 112, 1);
     }
     .f12 {
-      font-family: DanaFaNum;
       font-size: 32px;
       font-weight: 700;
       line-height: 45.76px;
       text-align: center;
       color: rgba(47, 47, 47, 1);
+    }
+    .f13 {
+      /* font-family: DanaFaNum; */
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 22.88px;
+      text-align: right;
     }
   }
 }

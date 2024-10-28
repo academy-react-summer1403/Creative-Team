@@ -45,7 +45,7 @@ const secondPageForgot = () => {
                   placeholder="رمزعبور خود را وارد کنید"
                 />
               </div>
-              <h5 className="text-right font-bold text-black-400 h-11 w-80 top-64 mt-4 text-nowrap">
+              <h5 className="text-right f13 text-black font-bold text-black-400 h-11 w-80 top-64 mt-4 text-nowrap">
                 تکرار رمزعبور جدید
               </h5>
               <div className="w-full h-12  ">
@@ -76,7 +76,7 @@ const secondPageForgot = () => {
           </div>
         </div>
         {/* <div className="left border-2 bg-gray-200"></div> */}
-        <div className="logo  leftSection flex m-2 w-3/4 h-full border-solid backF bg-slate-100 left-8 mt-0.5 rounded-l-3xl ">
+        <div className="logo  leftSection flex m-2  w-[748px] h-[960px]   border-solid backF bg-slate-100 left-8 mt-0.5 rounded-l-3xl ">
           <div className=" bg-slate-100">
             <div className="flex flex-row">
               <img className="size-10" src="./src/assets/image/logo.png" />
@@ -85,15 +85,15 @@ const secondPageForgot = () => {
                 src="./src/assets/image/logoTitle.png"
               />
             </div>
-            <h3 className="w-72 h-12 top-40 left-96 font-bold mt-20 bg-slate-100 text-right">
+            <h3 className="w-72 h-12 f12 top-40 left-96 font-bold mt-16 bg-slate-100 text-right">
               شروع یک ماجراجویی
             </h3>
-            <h5 className="text-red font-semibold bg-slate-100 mt-0.05 text-right">
+            <h5 className="text-red f11 font-semibold bg-slate-100 mt-4 text-right">
               هر دوره ای که بخوای رو به راحتی پیدا کن و یاد بگیر
             </h5>
             <div className="flex mt-20 mr-20 bg-slate-100">
               <img
-                className="mt-20 place-self-center bottom-44 "
+                className="mt-60 mx-28  place-self-center bottom-44 "
                 src="./src/assets/image/coffee.png"
               />
             </div>
