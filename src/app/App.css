@@ -16,6 +16,7 @@
   display: flex;
   /* width: clamp(390px, 1440px, 2000px); */
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: black;
 }
 
 @layer base {
