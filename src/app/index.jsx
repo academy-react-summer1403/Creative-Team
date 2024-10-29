@@ -15,7 +15,7 @@ import "../index.css";
 // import StudentDashboard from "../Components/Student/Student-dashBoard/StudentDashboard.jsx";
 // import StudentDashboard from "../Screen/dashboard/index.jsx";
 // import CommentModalBlog from "../Components/Blogs/BlogDetail/BlogDetail-CommentModal/index.jsx";
-// import Blog from "../Components/Blogs/Blog/index.jsx";
+import Blog from "../Components/Blogs/Blog/index.jsx";
 // import BlogDetail from "../Components/Blogs/BlogDetail/index.jsx";
 
 // import { authRoutes } from "../Config/Router/Auth.router";
@@ -31,7 +31,7 @@ function App() {
       {/* <CommonStructurePanel /> */}
       {/* <CommentModalBlog /> */}
       {/* <BlogDetail /> */}
-      {/* <Blog /> */}
+      <Blog />
       {/* <BlogDetail /> */}
       {/* <TopBlogs /> */}
       {/* <FirstPageForgot /> */}
