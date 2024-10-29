@@ -10,7 +10,10 @@ const index = () => {
         </div>
         <div className=" text-white mr-10">
           <ul className="text-lg mt-8">
-            <NavLink to="/pannel" className="cursor-pointer font-medium mt-3">
+            <NavLink
+              to="/pannel/mydashboard"
+              className="cursor-pointer font-medium mt-3"
+            >
               <a className=" flex flex-row justify-end">
                 <span>داشبورد</span>
                 <img className="ml-2" src="\pannel\activity-01.png"></img>

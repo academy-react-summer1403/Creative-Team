@@ -4,10 +4,7 @@ import React from "react";
 // import viteLogo from "./vite.svg";
 // import "./input.css";
 import "./App.css";
-import Header from "../Components/Common/Header";
-import Content from "../Components/LandingHolder/Content";
-import Footer from "../Components/Common/Footer";
-import RegisterForm from "../Components/RegisterForm";
+
 import Course from "../Components/Courses/Course";
 import CourseDetail from "../Components/Courses/CourseDetail";
 import LoginForm from "../Components/LoginForm";
@@ -28,28 +25,92 @@ import BlogFav from "../Components/Student/Student-panelAll/BlogFav";
 import ProfilePannel from "../Components/Student/Student-panelAll/ProfilePannel";
 import DarkMode from "../Components/Common/DarkMode";
 import LoginForms from "../Screen/LoginForms";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Root from "../Screen/Root";
+import Courses from "../Screen/Courses";
+import Blogs from "../Screen/Blogs";
+import AboutUs from "../Screen/AboutUs";
+import Register from "../Screen/Register";
+import RootStuPannel from "../Screen/Panels/RootStuPannel";
+import MyDashboard from "../Components/Student/Student-panelAll/MyDashboard";
+import NotFound from "../Components/Common/NotFound";
 
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Root />,
+      children: [
+        {
+          index: true,
+          path: "/",
+          element: <Landing />,
+        },
+        {
+          path: "/courses",
+          element: <Courses />,
+        },
+        {
+          path: "/blogs",
+          element: <Blogs />,
+        },
+        {
+          path: "/about",
+          element: <AboutUs />,
+        },
+        {
+          path: "/login",
+          element: <LoginForms />,
+        },
+        {
+          path: "/register",
+          element: <Register />,
+        },
+        // {
+        //   path: "/forget",
+        //   element: <Forget />,
+        // },
+      ],
+    },
+    {
+      path: "/pannel",
+      element: <RootStuPannel />,
+      children: [
+        {
+          path: "/pannel/mydashboard",
+          element: <MyDashboard />,
+        },
+        {
+          path: "/pannel/mycourse",
+          element: <MyCourse />,
+        },
+        {
+          path: "/pannel/reservecourse",
+          element: <ReserveCourse />,
+        },
+        {
+          path: "/pannel/coursefav",
+          element: <CourseFav />,
+        },
+        {
+          path: "/pannel/blogfav",
+          element: <BlogFav />,
+        },
+        // {
+        //   path: "/pannel/profile",
+        //   element: <Profile />,
+        // },
+      ],
+    },
+    {
+      path: "*",
+      element: <NotFound />,
+    },
+  ]);
   return (
     <>
-      {/* <DarkMode /> */}
-      {/* <MyCourse /> */}
-      {/* <ReserveCourse /> */}
-      {/* <CourseFav /> */}
-      {/* <BlogFav /> */}
-      {/* <ProfilePannel /> */}
-      {/* <Landing /> */}
-      {/* <RegisterForm /> */}
-      {/* <LoginForms /> */}
-
-      {/* <Course /> */}
-      {/* <FilterModal /> */}
-      {/* <SortModal /> */}
-      {/* <Menu /> */}
-      {/* <CourseDetail />  */}
-
-      {/* Routers */}
+      <RouterProvider router={router} />
     </>
   );
 
