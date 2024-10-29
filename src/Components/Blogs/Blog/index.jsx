@@ -1,5 +1,5 @@
 import React from "react";
-
+import Header from "./Header/index";
 const blog = () => {
   return (
     <>
@@ -7,7 +7,8 @@ const blog = () => {
         {" "}
         <div className="sourcePage flex flex-col ">
           <div className="blogHeader flex justify-between">
-            <div className="right flex flex-row">
+            <Header />
+            {/* <div className="right flex flex-row">
               <div className="">
                 1
                 <img src="" />
@@ -23,7 +24,7 @@ const blog = () => {
               <div className="">بلاگ ها</div>
               <div className="">درباره ما</div>
               <div className="">آیکون</div>
-            </div>
+            </div> */}
             <div className="left flex">
               <div className="">
                 NotifImg
