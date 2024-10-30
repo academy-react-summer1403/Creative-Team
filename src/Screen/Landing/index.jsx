@@ -3,7 +3,7 @@ import LandingHolder from "../../Components/LandingHolder";
 const Landing = () => {
   return (
     <div>
-      {/*Landing Holder  */}
+      
       <LandingHolder />
     </div>
   );
