@@ -29,6 +29,38 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    direction: rtl;
+  }
+  .bodyTopBlogLanding {
+    width: 10361px;
+    height: 546px;
+    top: 2554px;
+    left: 39px;
+    gap: 48px;
+    opacity: 0px;
+  }
+  body-forgot {
+    font-family: "Noto Serif", serif, Ariel, Helvetica, sans-serif;
+    background: #ffffff;
+    width: 1440px;
+    height: 1024px;
+  }
+  backF {
+    width: 748px;
+    height: 960px;
+    top: 32px;
+    left: 32px;
+    gap: 0px;
+    border-radius: 32px 32px 32px 32px;
+    opacity: 0px;
+  }
+  b {
+    color: blue;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     direction: ltr;
   }
   .bodyTopBlogLanding {
@@ -58,6 +90,8 @@ body {
     color: blue;
   }
 
+  @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+  @import "./index.css";
   @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
   @import "./index.css";
 }

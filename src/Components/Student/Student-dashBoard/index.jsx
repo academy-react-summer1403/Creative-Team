@@ -1,5 +1,5 @@
 import React from "react";
-
+import StudentDashboardWhiteSection from "../../../Components/Student/Student-dashBoard/CommonStructurePanel/whiteSection/index.jsx";
 const StudentDashboard = () => {
   return (
     <div className="w-[1440px] h-[1024px] bg-black text-white flex flex-col">
@@ -101,7 +101,7 @@ const StudentDashboard = () => {
           </li>
         </ul>
         <div className=" w-[1126px] h-[928px] bg-white rounded-3xl ml-6 text-black">
-          {" "}
+          <StudentDashboardWhiteSection />
         </div>
       </div>
     </div>
