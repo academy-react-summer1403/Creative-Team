@@ -1,32 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 
-@layer base {
-  body {
-    dark: bg gray -950px;
-  }
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.boxIcon {
-  border: 1px solid #ccc;
-  border-radius: 50%;
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
 
-  width: 70px;
-  height: 70px;
-  position: absolute;
-  top: 15px;
-  right: 10px;
+body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
 }
-.boxIcon1 {
-  background: #fff url(/imgLand/task-daily-01.png) no-repeat 50%;
+.bodyTopBlogLanding {
+  width: 10361px;
+  height: 546px;
+  top: 2554px;
+  left: 39px;
+  gap: 48px;
+  opacity: 0px;
 }
-.boxIcon2 {
-  background: #fff url(/imgLand/document-validation.png) no-repeat 50%;
+body-forgot {
+  font-family: "Noto Serif", serif, Ariel, Helvetica, sans-serif;
+  background: #ffffff;
+  width: 1440px;
+  height: 1024px;
 }
-.boxIcon3 {
-  background: #fff url(/imgLand/job-link.png) no-repeat 50%;
+backF {
+  width: 748px;
+  height: 960px;
+  top: 32px;
+  left: 32px;
+  gap: 0px;
+  border-radius: 32px 32px 32px 32px;
+  opacity: 0px;
 }
-.boxIcon4 {
-  background: #fff url(/imgLand/message-user-01.png) no-repeat 50%;
+b {
+  color: blue;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import "./index.css";
 }

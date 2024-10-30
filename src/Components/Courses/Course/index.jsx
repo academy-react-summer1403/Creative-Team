@@ -1,8 +1,6 @@
 import React from "react";
 
-const index = () => {
-  // function handleDetail(id) {}
-
+const Course = () => {
   return (
     <>
       <section className=" mobile:w-[1200px] w-[393px] mx-auto my-20 dark:bg-gray-950">
@@ -459,4 +457,4 @@ const index = () => {
   );
 };
 
-export default index;
+export { Course };

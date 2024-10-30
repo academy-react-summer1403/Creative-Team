@@ -1,3 +1,221 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  direction: rtl;
+  max-width: 1440px;
+  /* height: 1024px; */
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+  /* overflow: hidden; */
+  display: flex;
+  /* width: clamp(390px, 1440px, 2000px); */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: black;
+}
+
+@layer base {
+  @font-face {
+    font-family: dana-fanum regular;
+    src: url("../fonts/dana-fanum regular.ttf") format("truetype");
+  }
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.dashboardtopLogo {
+  width: 235px;
+  /* height: 42px; */
+  top: 24px;
+  left: 1181px;
+  gap: 0px;
+  opacity: 0px;
+}
+.dashboardtopStudent {
+  width: 130px px;
+  height: 48px px;
+  top: 11px;
+  left: 1012px;
+  gap: 8px;
+  opacity: 0px;
+  margin-right: 40px;
+}
+.f5 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34.32px;
+  text-align: right;
+}
+.f1 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20.02px;
+  text-align: right;
+  color: rgba(112, 112, 112, 1);
+  padding-right: 8px;
+  margin-top: 8px;
+}
+.f6 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20.02px;
+  text-align: right;
+}
+.f7 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.88px;
+  text-align: right;
+}
+.f8 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20.02px;
+  text-align: right;
+}
+.f9 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 45.02px;
+  text-align: right;
+}
+.f10 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20.02px;
+  text-align: right;
+  @layer components {
+    .f1 {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20.02px;
+      text-align: right;
+      color: rgba(112, 112, 112, 1);
+      padding-right: 8px;
+      margin-top: 8px;
+    }
+    .f2 {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 22.88px;
+      text-align: right;
+      color: black;
+      margin-top: 8px;
+      padding-right: 8px;
+    }
+    .f3 {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28.6px;
+      text-align: right;
+    }
+    .f4 {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 28.6px;
+      text-align: right;
+      margin-top: 8px;
+      padding-right: 8px;
+    }
+    .f40 {
+      width: 219px;
+      height: 29px;
+      top: 1030px;
+      left: 1181px;
+      gap: 0px;
+      opacity: 0px;
+    }
+    .moreView {
+      width: Hug (125px) px;
+      height: Hug (39px) px;
+      top: 1389px;
+      left: 658px;
+      padding: 8px 16px 8px 16px;
+      gap: 8px;
+      border-radius: 40px 0px 0px 0px;
+      opacity: 0px;
+    }
+    .blogDetailCommentModal {
+      width: 851px;
+      height: 653px;
+      top: 2426px;
+      left: 407px;
+      gap: 0px;
+      border-radius: 32px 32px 32px 32px;
+      opacity: 0px;
+      background: rgba(252, 252, 252, 1);
+    }
+    .f5 {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 34.32px;
+      text-align: right;
+    }
+    .f6 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 25.74px;
+      text-align: right;
+    }
+    .f11 {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 28.6px;
+      text-align: right;
+      color: rgba(112, 112, 112, 1);
+    }
+    .f12 {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 45.76px;
+      text-align: center;
+      color: rgba(47, 47, 47, 1);
+    }
+    .f13 {
+      /* font-family: DanaFaNum; */
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 22.88px;
+      text-align: right;
+    }
+  }
+}

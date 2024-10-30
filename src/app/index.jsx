@@ -1,4 +1,6 @@
 import React from "react";
+import "./App.css";
+import "../index.css";
 // import { useState } from "react";
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "./vite.svg";
@@ -125,4 +127,4 @@ function App() {
   //   <Route />
   // </Routes>;
 }
-export default App;
+export { App };

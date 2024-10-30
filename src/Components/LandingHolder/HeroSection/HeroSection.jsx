@@ -1,6 +1,6 @@
 import React from "react";
 
 const HeroSection = () => {
-  return <></>;
+  return <div>HeroSection</div>;
 };
 export default HeroSection;
