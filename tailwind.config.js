@@ -14,6 +14,10 @@ export default {
         danaRegular: "dana-fanum regular",
       },
       screens: {
+        mobile: "440px",
+        tablet: "740px",
+        laptop: "1200px",
+        desktop: "1500px",
         // sm: "395px",
         mob: "395px",
         md: "1440px",
