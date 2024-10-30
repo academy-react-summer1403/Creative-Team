@@ -37,7 +37,6 @@ import RootStuPannel from "../Screen/Panels/RootStuPannel";
 import MyDashboard from "../Components/Student/Student-panelAll/MyDashboard";
 import NotFound from "../Components/Common/NotFound";
 
-<<<<<<< HEAD
 // import StudentDashboardWhiteSection from "../Components/Student/Student-dashBoard/CommonStructurePanel/studentDashboardWhiteSection.jsx";
 // import CommonStructurePanel from "../Components/Student/Student-dashBoard/CommonStructurePanel/commonStructurePanel.jsx";
 import FirstPageForgot from "../Screen/Forgot/PageForgot01/index.jsx";
@@ -51,8 +50,6 @@ import FirstPageForgot from "../Screen/Forgot/PageForgot01/index.jsx";
 
 // import { authRoutes } from "../Config/Router/Auth.router";
 // import Header from "../Components/Common/Header";
-=======
->>>>>>> 21a3c43c648705339e1d470a91a0b7f12acfbefb
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
   const router = createBrowserRouter([
@@ -86,8 +83,8 @@ function App() {
           element: <Register />,
         },
         // {
-        //   path: "/forget",
-        //   element: <Forget />,
+        //   path: "/forgot",
+        //   element: <Forgot />,
         // },
       ],
     },
@@ -128,7 +125,6 @@ function App() {
   ]);
   return (
     <>
-<<<<<<< HEAD
       {" "}
       {/* Routers */}
       {/* <StudentDashboard /> */}
@@ -142,9 +138,7 @@ function App() {
       <FirstPageForgot />
       {/* <SecondPageForgot /> */}
       {/* Routers */}
-=======
-      <RouterProvider router={router} />
->>>>>>> 21a3c43c648705339e1d470a91a0b7f12acfbefb
+      {/* <RouterProvider router={router} /> */}
     </>
   );
 
