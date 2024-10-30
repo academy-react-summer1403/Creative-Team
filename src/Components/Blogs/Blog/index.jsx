@@ -1,5 +1,5 @@
 import React from "react";
-const blog = () => {
+const index = () => {
   return (
     <>
       <div className="yellow-400   dark:bg-indigo-950">
@@ -451,4 +451,4 @@ const blog = () => {
   );
 };
 
-export default blog;
+export default index;

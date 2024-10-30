@@ -1,6 +1,6 @@
 import React from "react";
 
-const CommentModalBlog = () => {
+const index = () => {
   return (
     <>
       <div className="blogDetailCommentModal border-2 flex flex-col f justify-centre">
@@ -142,4 +142,4 @@ const CommentModalBlog = () => {
   );
 };
 
-export default CommentModalBlog;
+export default index;

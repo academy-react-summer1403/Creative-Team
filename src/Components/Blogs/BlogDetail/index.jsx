@@ -1,8 +1,5 @@
 import React from "react";
 
-// import TopBlogs from "../Components/LandingHolder/BlogBartar/index.jsx";
-// import { Fragment, jsxDEV } from "react/jsx-dev-runtime";
-
 const blogsData = [
   {
     title: "زبان جاوا اسکریپت در چه حوزه ای به کار میرود؟",
@@ -38,7 +35,7 @@ const blogsData = [
   },
 ];
 
-const blogDetail = () => {
+const index = () => {
   return (
     <>
       {" "}
@@ -421,4 +418,4 @@ const blogDetail = () => {
   );
 };
 
-export default blogDetail;
+export default index;
