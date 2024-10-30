@@ -6,7 +6,7 @@ import Footer from "../../Components/Common/Footer";
 const index = () => {
   return (
     <>
-      <section className="dark:bg-gray-900">
+      <section className="w-[1320px]">
         <Header />
         <Outlet />
         <Footer />

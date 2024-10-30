@@ -33,7 +33,7 @@ const index = () => {
   const navigate = useNavigate();
   return (
     <>
-      <section className="  flex flex-col gap-8 mobile:w-[1350px] w-[393px] mx-auto  dark:bg-gray-950">
+      <section className="  flex flex-col gap-8 mobile:w-[1320px] w-[393px] mx-auto  dark:bg-gray-950">
         <section className="w-full  mobile:flex mobile:flex-row justify-between gap-10 my-20 mx-auto flex flex-col items-center">
           <div className="  flex flex-col gap-5 items-center my-5 mobile:w-72 mobile:mx-auto ">
             <h4 className="font-serif text-black dark:text-white leading-8 text-lg font-medium not-italic mobile:text-right text-center">
@@ -332,48 +332,49 @@ const index = () => {
           </botton>
         </section>
         {/* *****************************Top Blogs ********************** */}
-        <section className="py-16 ">
-          <div className="container mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-8 dark:text-white">
-              بلاگ های برتر هفته
-            </h2>
-            <div className="md:flex hidden  md:flex-wrap justify-center gap-8 mx-2">
-              {blogsData.map((blog, index) => (
+        <section className=" container mx-auto text-center w-[1350px] my-8  flex flex-col gap-3 items-center ">
+          <h2 className="text-3xl font-bold mb-8 dark:text-white">
+            بلاگ های برتر هفته
+          </h2>
+          <div className="flex flex-wrap justify-center gap-8 mx-2">
+            {blogsData.map((blog, index) => (
+              <div
+                key={index}
+                className=" bg-white dark:bg-indigo-900 rounded-lg  flex-1 "
+              >
                 <div
-                  key={index}
-                  className=" bg-white dark:bg-indigo-900 rounded-lg  flex-1 "
+                  className={`h-72 mx-auto flex justify-center items-center mb-4 rounded-xl ${blog.color}`}
                 >
-                  <div
-                    className={`h-72 mx-auto flex justify-center items-center mb-4 rounded-xl ${blog.color}`}
-                  >
-                    <img src={blog.icon} alt={""} className={`size-48 `} />
-                  </div>
-                  <h3 className="flex text-l font-bold mb-2 dark:text-white">
-                    {blog.title}
-                  </h3>
-                  <div className="flex justify-between mt-4 text-gray-500 space-x-2 rtl:space-x-reverse mb-2">
-                    <p className="flex text-gray-400 dark:text-white text-sm items-center ">
-                      {blog.author}
-                    </p>
-                    <div>
-                      <span
-                        className={`inline-flex items-center dark:text-white text-xs gap-2 w-32 `}
-                      >
-                        <i /> {blog.date}
-                        <BsCalendar4Week />
-                      </span>
-                      <span className="inline-flex items-center dark:text-white text-xs gap-2">
-                        <i /> {blog.views} <BsEye />
-                      </span>
-                    </div>
+                  <img src={blog.icon} alt={""} className={`size-48 `} />
+                </div>
+                <h3 className="flex text-l text-right font-bold mb-2 dark:text-white">
+                  {blog.title}
+                </h3>
+                <div className="flex justify-between mt-4 text-gray-500 space-x-2 rtl:space-x-reverse mb-2">
+                  <p className="flex text-gray-400 dark:text-white text-sm items-center ">
+                    {blog.author}
+                  </p>
+                  <div>
+                    <span
+                      className={`inline-flex items-center dark:text-white text-xs gap-2 w-32 `}
+                    >
+                      <i /> {blog.date}
+                      <BsCalendar4Week />
+                    </span>
+                    <span className="inline-flex items-center dark:text-white text-xs gap-2">
+                      <i /> {blog.views} <BsEye />
+                    </span>
                   </div>
                 </div>
-              ))}
-            </div>
-            <button className="bg-gray-900 dark:bg-blue-500 text-white px-5 py-1.5 rounded-full mt-8">
-              مشاهده بیشتر
-            </button>
+              </div>
+            ))}
           </div>
+          <button
+            onClick={() => navigate("/blogs")}
+            className="bg-gray-900 dark:bg-blue-500 text-white px-5 py-1.5 rounded-full mt-8"
+          >
+            مشاهده بیشتر
+          </button>
         </section>
         {/* ********************************* */}
         <section className="mobile:w-[1300px] w-[395px] bg-black rounded-3xl mobile:flex mobile:flex-row justify-center gap-3 flex flex-col-reverse my-4">
