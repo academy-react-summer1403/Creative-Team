@@ -1,10 +1,10 @@
 import React from "react";
-import FirstPageForgot from "../../../Components/Forgot/PageForgot01/index.jsx";
+import BlogDetail from "../../../Components/Blogs/BlogDetail/index.jsx";
 
 const index = () => {
   return (
     <>
-      <FirstPageForgot />
+      <BlogDetail />
     </>
   );
 };

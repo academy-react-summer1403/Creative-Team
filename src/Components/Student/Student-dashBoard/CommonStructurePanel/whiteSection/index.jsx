@@ -38,8 +38,8 @@ const studentDashboardWhiteSection = () => {
           </div>
           <div className=" w-[424px] m-auto text-right text-pretty pr-2">
             سلام ، من پارسام<br></br>
-             اینم بیو پروفایلمه واقعا نمیدونم چی بنویسم خودتون بیایید منو
-            بشناسید حال ندارم بخدا خستم
+            اینم بیو پروفایلمه واقعا نمیدونم چی بنویسم خودتون بیایید منو بشناسید
+            حال ندارم بخدا خستم
           </div>
         </div>
         <div className="flex gap-6 justify-center  h-[246px]">
