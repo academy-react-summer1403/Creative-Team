@@ -7,25 +7,19 @@ import "../index.css";
 // import "./input.css";
 import "./App.css";
 
-import Course from "../Components/Courses/Course";
-import CourseDetail from "../Components/Courses/CourseDetail";
-import LoginForm from "../Components/LoginForm";
 // import { authRoutes } from "../Config/Router/Auth.router";
 import index from "./../Screen/Register/index";
 import { NavLink } from "react-router-dom";
 import { GiBottomRight3dArrow } from "react-icons/gi";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
-import FilterModal from "../Components/Courses/Course/FilterModal";
-import SortModal from "../Components/Courses/Course/SortModal";
-import Menu from "../Components/LandingHolder/Menu";
+
 import MyCourse from "../Components/Student/Student-panelAll/MyCourse";
 import Landing from "../Screen/Landing";
 import ReserveCourse from "../Components/Student/Student-panelAll/ReserveCourse";
 import CourseFav from "../Components/Student/Student-panelAll/CourseFav";
 import BlogFav from "../Components/Student/Student-panelAll/BlogFav";
-import ProfilePannel from "../Components/Student/Student-panelAll/ProfilePannel";
-import DarkMode from "../Components/Common/DarkMode";
+
 import LoginForms from "../Screen/LoginForms";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "../Screen/Root";
@@ -39,7 +33,7 @@ import NotFound from "../Components/Common/NotFound";
 
 // import StudentDashboardWhiteSection from "../Components/Student/Student-dashBoard/CommonStructurePanel/studentDashboardWhiteSection.jsx";
 // import CommonStructurePanel from "../Components/Student/Student-dashBoard/CommonStructurePanel/commonStructurePanel.jsx";
-import FirstPageForgot from "../Screen/Forgot/PageForgot01/index.jsx";
+// import FirstPageForgot from "../Screen/Forgot/PageForgot01/index.jsx";
 // import SecondPageForgot from "../Screen/Forgot/PageForgot02/index.jsx";
 // import TopBlogs from "../Components/LandingHolder/BlogBartar/index.jsx";
 // import StudentDashboard from "../Components/Student/Student-dashBoard/StudentDashboard.jsx";
@@ -125,20 +119,7 @@ function App() {
   ]);
   return (
     <>
-      {" "}
-      {/* Routers */}
-      {/* <StudentDashboard /> */}
-      {/* <StudentDashboardWhiteSection /> */}
-      {/* <CommonStructurePanel /> */}
-      {/* <CommentModalBlog /> */}
-      {/* <BlogDetail /> */}
-      {/* <Blog /> */}
-      {/* <BlogDetail /> */}
-      {/* <TopBlogs /> */}
-      <FirstPageForgot />
-      {/* <SecondPageForgot /> */}
-      {/* Routers */}
-      {/* <RouterProvider router={router} /> */}
+      <RouterProvider router={router} />
     </>
   );
 
