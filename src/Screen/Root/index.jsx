@@ -6,9 +6,11 @@ import Footer from "../../Components/Common/Footer";
 const index = () => {
   return (
     <>
-      <Header />
-      <Outlet />
-      <Footer />
+      <section className="dark:bg-gray-900">
+        <Header />
+        <Outlet />
+        <Footer />
+      </section>
     </>
   );
 };

@@ -5,7 +5,7 @@ const index = () => {
 
   return (
     <>
-      <section className="border border-red-500 mobile:w-[1200px] w-[393px] my-20">
+      <section className=" mobile:w-[1200px] w-[393px] mx-auto my-20">
         <div className="flex flex-col justify-between items-center mobile:gap-3 gap-5">
           <h1 className="font-bold font-serif mobile:text-3xl text-xl">
             شروع ماجراجویی جدید
