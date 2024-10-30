@@ -1,9 +1,11 @@
 import React from "react";
 
-const Course = () => {
+const index = () => {
+  // function handleDetail(id) {}
+
   return (
     <>
-      <section className=" mobile:w-[1200px] w-[393px] mx-auto my-20 dark:bg-gray-950">
+      <section className=" mobile:w-[1200px] w-[393px] mx-auto my-20">
         <div className="flex flex-col justify-between items-center mobile:gap-3 gap-5">
           <h1 className="font-bold font-serif mobile:text-3xl text-xl">
             شروع ماجراجویی جدید
@@ -457,4 +459,4 @@ const Course = () => {
   );
 };
 
-export { Course };
+export default index;

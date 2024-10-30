@@ -1,18 +1,16 @@
 import React from "react";
 import HeroSection from "./HeroSection/HeroSection";
-import Header from "../Common/Header/header";
+import Header from "../Common/Header";
+import Content from "./Content";
+import Footer from "../Common/Footer";
 
 const LandingHolder = () => {
   //here logic or in Folder Core
 
   return (
-    <div>
-      LandingHolder
-      {/* Header */}
-      <Header />
-      {/* Hero Section */}
-      <HeroSection />
-    </div>
+    <>
+      <Content />
+    </>
   );
 };
 export default LandingHolder;
