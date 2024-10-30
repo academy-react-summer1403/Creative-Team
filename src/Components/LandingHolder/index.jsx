@@ -1,7 +1,7 @@
 import React from "react";
 import Content from "./Content";
 
-const LandingHolder = () => {
+const index = () => {
   //here logic or in Folder Core
 
   return (
@@ -10,4 +10,4 @@ const LandingHolder = () => {
     </>
   );
 };
-export default LandingHolder;
+export default index;

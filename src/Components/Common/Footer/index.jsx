@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Footer = () => {
+const index = () => {
   return (
     <>
       <footer className="mobile:flex mobile:flex-row-reverse flex-col justify-center gap-36 px-4  py-10 dark:bg-gray-950">
@@ -69,4 +69,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default index;

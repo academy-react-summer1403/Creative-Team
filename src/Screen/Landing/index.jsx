@@ -1,6 +1,6 @@
 import React from "react";
 import LandingHolder from "../../Components/LandingHolder";
-const Landing = () => {
+const index = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Landing = () => {
     </div>
   );
 };
-export default Landing;
+export default index;

@@ -1,7 +1,8 @@
 import React from "react";
 import DarkMode from "../DarkMode";
 import { Link, NavLink } from "react-router-dom";
-const Header = () => {
+
+const index = () => {
   return (
     <>
       <div className={'dark:bg-gray-950 ${darkMode && "dark"}'}>
@@ -106,4 +107,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default index;
