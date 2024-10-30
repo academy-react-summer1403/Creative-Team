@@ -1,41 +1,10 @@
 import React from "react";
-import Header from "./Header/index";
 const blog = () => {
   return (
     <>
       <div className="yellow-400   dark:bg-indigo-950">
         {" "}
         <div className="sourcePage flex flex-col ">
-          <div className="blogHeader flex justify-between">
-            <Header />
-            {/* <div className="right flex flex-row">
-              <div className="">
-                1
-                <img src="" />
-              </div>
-              <div className="">
-                2
-                <img src="" />
-              </div>
-            </div>
-            <div className="centre flex">
-              <div className="">خانه</div>
-              <div className="">دوره ها</div>
-              <div className="">بلاگ ها</div>
-              <div className="">درباره ما</div>
-              <div className="">آیکون</div>
-            </div> */}
-            <div className="left flex">
-              <div className="">
-                NotifImg
-                <img />
-              </div>
-              <div className="">
-                DarkImg
-                <img />
-              </div>
-            </div>
-          </div>
           <div className="">
             <div className="topheader">
               <h2 className="danaRegular text-nowrap font-medium mt-8	text-4xl	 pb-2">
@@ -476,11 +445,6 @@ const blog = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="blogFooter flex flex-row justify-around">
-          <div className="">right</div>
-          <div className="">centre</div>
-          <div className="">left</div>
         </div>
       </div>
     </>
