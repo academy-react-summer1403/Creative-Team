@@ -19,6 +19,7 @@ import MyDashboard from "../Components/Student/Student-panelAll/MyDashboard";
 import NotFound from "../Components/Common/NotFound";
 import Forgot from "../screen/Forgot";
 import BlogDetail from "../Components/Blogs/BlogDetail";
+import CourseDetail from "../Components/Courses/CourseDetail";
 
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -35,6 +36,10 @@ function App() {
         {
           path: "/courses",
           element: <Courses />,
+        },
+        {
+          path: "/coursedetail",
+          element: <CourseDetail />,
         },
         {
           path: "/blogs",

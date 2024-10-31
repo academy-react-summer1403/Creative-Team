@@ -3,8 +3,8 @@ import React from "react";
 const index = () => {
   return (
     <>
-      <div className=" my-10 mobile:w-[350px] w-[230px] mx-auto">
-        <div className="bg-gray-200 p-4 rounded-2xl flex flex-row justify-between gap-6">
+      <div className=" my-10 mobile:w-[350px] w-[230px] mx-auto ">
+        <div className="bg-gray-200 dark:bg-gray-400 text-black p-4 rounded-2xl flex flex-row justify-between gap-6">
           <img src="\imgLand\arrow-left-01.png"></img>
           <i>1</i>
           <i>2</i>

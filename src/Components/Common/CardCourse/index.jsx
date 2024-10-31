@@ -1,11 +1,26 @@
 import React from "react";
-
-const index = ({ title, icon, color, author, catName, catType, price }) => {
+import { useNavigate } from "react-router-dom";
+const index = ({
+  title,
+  icon,
+  color,
+  author,
+  catName,
+  catType,
+  price,
+  id,
+  onHandleDetail,
+}) => {
+  const navigate = useNavigate();
   return (
     <>
-      <div className="  flex flex-col p-0 justify-center gap-1 mobile:w-1/4 w-11/12 bg-slate-100 rounded-3xl dark:bg-slate-200 dark:rounded-3xl">
+      <div
+        className="  flex flex-col p-0 justify-center gap-1 mobile:w-1/4 w-11/12 bg-slate-100 rounded-3xl dark:bg-slate-200 dark:rounded-3xl cursor-pointer"
+        onClick={onHandleDetail}
+      >
         <div
           className={`  h-60 w-full mx-auto flex justify-center items-center mb-4 rounded-2xl ${color}`}
+          onClick={() => navigate("/coursedetail/" + id)}
         >
           <img className=" h-1/4 rounded-3xl  flex flex-row" src={icon}></img>
         </div>
