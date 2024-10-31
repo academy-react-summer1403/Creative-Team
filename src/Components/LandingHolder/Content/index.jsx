@@ -33,7 +33,7 @@ const index = () => {
   const navigate = useNavigate();
   return (
     <>
-      <section className="  flex flex-col gap-8 mobile:w-[1320px] w-[393px] mx-auto  dark:bg-gray-950">
+      <section className=" flex flex-col gap-8 mobile:w-[1330px] w-[393px] dark:bg-gray-950">
         <section className="w-full  mobile:flex mobile:flex-row justify-between gap-10 my-20 mx-auto flex flex-col items-center">
           <div className="  flex flex-col gap-5 items-center my-5 mobile:w-72 mobile:mx-auto ">
             <h4 className="font-serif text-black dark:text-white leading-8 text-lg font-medium not-italic mobile:text-right text-center">
@@ -122,11 +122,11 @@ const index = () => {
                 المللی کاریابی و آماده سازی برای شرکت ها
               </p>
               <img
-                className=" w-52 h-52 mx-auto"
+                className=" w-52 h-48 mx-auto"
                 src="imgLand/3d-hygge-open-window-with-active-sprints 1.png"
               />
             </div>
-            <div className=" bg-white mobile:w-1/4 w-full border-2 border-gray-300 rounded-2xl flex flex-col gap-2 my-8">
+            <div className=" bg-white mobile:w-1/4 w-full  border-2 border-gray-300 rounded-2xl flex flex-col gap-2 my-8">
               <h3 className="mr-3 text-right text-xl font-bold font-serif not-italic leading-7">
                 آموزش های تخصصی
               </h3>
@@ -136,7 +136,7 @@ const index = () => {
                 و ...
               </p>
               <img
-                className=" w-52 h-52 mx-auto"
+                className=" w-52 h-40 mx-auto"
                 src="imgLand/3d-hygge-colleagues-discussing-the-project-in-vr 1.png"
               />
             </div>
@@ -149,7 +149,7 @@ const index = () => {
                 محور برای تحریک ذهنیت خلاق در طول فرآیند آموزش
               </p>
               <img
-                className=" w-52 h-52 mx-auto"
+                className=" w-52 h-48 mx-auto"
                 src="imgLand/3d-hygge-isometric-view-of-man-leaning-on-chair-and-talking-to-young-woman 1.png"
               />
             </div>
@@ -162,7 +162,7 @@ const index = () => {
                 نظر از سن ، رشته تحصیلی ، جغرافیا و جنسیت و ...
               </p>
               <img
-                className=" w-52 h-52 mx-auto"
+                className=" w-52 h-48 mx-auto"
                 src="imgLand/3d-hygge-isometric-view-of-young-woman-and-man-discussing-the-project 1.png"
               />
             </div>
@@ -340,30 +340,32 @@ const index = () => {
             {blogsData.map((blog, index) => (
               <div
                 key={index}
-                className=" bg-white dark:bg-indigo-900 rounded-lg  flex-1 "
+                className=" bg-white dark:bg-slate-200 rounded-3xl flex-1 "
               >
                 <div
                   className={`h-72 mx-auto flex justify-center items-center mb-4 rounded-xl ${blog.color}`}
                 >
                   <img src={blog.icon} alt={""} className={`size-48 `} />
                 </div>
-                <h3 className="flex text-l text-right font-bold mb-2 dark:text-white">
-                  {blog.title}
-                </h3>
-                <div className="flex justify-between mt-4 text-gray-500 space-x-2 rtl:space-x-reverse mb-2">
-                  <p className="flex text-gray-400 dark:text-white text-sm items-center ">
-                    {blog.author}
-                  </p>
-                  <div>
-                    <span
-                      className={`inline-flex items-center dark:text-white text-xs gap-2 w-32 `}
-                    >
-                      <i /> {blog.date}
-                      <BsCalendar4Week />
-                    </span>
-                    <span className="inline-flex items-center dark:text-white text-xs gap-2">
-                      <i /> {blog.views} <BsEye />
-                    </span>
+                <div className="  text-right">
+                  <h3 className=" text-l text-center font-bold mb-2 dark:text-black">
+                    {blog.title}
+                  </h3>
+                  <div className=" flex justify-center gap-8 mt-4 mb-2  text-gray-500 space-x-2">
+                    <div className=" flex flex-nowrap">
+                      <span className="inline-flex items-center dark:text-black text-xs gap-2 text-right">
+                        <i /> {blog.views} <BsEye />
+                      </span>
+                      <span
+                        className={`inline-flex items-center dark:text-black text-xs gap-2 w-32 text-right`}
+                      >
+                        <i /> {blog.date}
+                        <BsCalendar4Week />
+                      </span>
+                    </div>
+                    <p className=" text-gray-400 dark:text-black text-xs items-center text-nowrap ">
+                      {blog.author}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -371,7 +373,7 @@ const index = () => {
           </div>
           <button
             onClick={() => navigate("/blogs")}
-            className="bg-gray-900 dark:bg-blue-500 text-white px-5 py-1.5 rounded-full mt-8"
+            className="bg-gray-900 dark:bg-gray-700 text-white px-5 py-1.5 rounded-full mt-8"
           >
             مشاهده بیشتر
           </button>
@@ -402,7 +404,7 @@ const index = () => {
           </div>
         </section>
       </section>
-      <div className="border-t border-gray-400 dark:border-gray-300 w-[1300px] mx-auto mb-7"></div>
+      <div className="border-t border-gray-400 dark:border-gray-300 w-[1300px] mx-auto"></div>
     </>
   );
 };

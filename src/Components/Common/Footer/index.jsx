@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const index = () => {
   return (
     <>
-      <section className="border-3 border-red-600 mobile:flex mobile:flex-row-reverse flex-col justify-center gap-36 px-4  py-10 dark:bg-gray-950">
+      <section className=" mobile:flex mobile:flex-row-reverse flex-col justify-center gap-36 mobile:w-[1330px] w-[393px] px-4  py-10 dark:bg-gray-950">
         <div className="hidden mobile:flex justify-center items-center space-x-1">
           <h1 className="text-xl font-bold text-cyan-500">
             آکادمی کد نویسی بحر

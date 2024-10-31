@@ -14,7 +14,7 @@ export default {
         danaRegular: "dana-fanum regular",
       },
       screens: {
-        mobile: "440px",
+        mobile: "460px",
         tablet: "740px",
         laptop: "1200px",
         desktop: "1500px",
@@ -27,8 +27,8 @@ export default {
       boxShadow: {
         neon: "0 0 5px theme('color.purple.200),",
       },
-      darkMode: "class",
     },
   },
   plugins: [],
+  darkMode: "class",
 };
