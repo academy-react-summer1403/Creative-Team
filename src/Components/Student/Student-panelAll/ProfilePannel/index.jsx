@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet, useLocation } from "react-router-dom";
 import AccauntInfo from "./AccauntInfo";
 import ImagesProfile from "./ImagesProfile";
 import Location from "./Location";
@@ -7,6 +7,7 @@ import Links from "./Links";
 import SideProfilePannel from "./SideProfilePannel";
 
 const index = () => {
+  const location = useLocation();
   return (
     <>
       <div className="bg-white dark:bg-gray-700 text-black dark:text-white rounded-2xl w-11/12 h-full mx-auto flex flex-col justify-end items-end text-right">
@@ -15,11 +16,16 @@ const index = () => {
         </div>
         <div className="  flex flex-row gap-3 w-11/12 h-[700px] mx-auto mt-8 ">
           <div className=" w-3/4 h-full">
+            {location.pathname === "/pannel/profile" ? (
+              <AccauntInfo />
+            ) : (
+              <Outlet />
+            )}
             {/* <AccauntInfo /> */}
-            <Outlet />
+
             {/* <ImagesProfile /> */}
             {/* <Location /> */}
-            <Links />
+            {/* <Links /> */}
           </div>
 
           <div className="border border-r-gray-400"></div>

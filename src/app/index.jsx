@@ -105,15 +105,15 @@ function App() {
               element: <AccauntInfo />,
             },
             {
-              path: "/pannel/profile/imagesprofile",
+              path: "/pannel/profile/ImagesProfile",
               element: <ImagesProfile />,
             },
             {
-              path: "/pannel/profile/links",
+              path: "/pannel/profile/Links",
               element: <Links />,
             },
             {
-              path: "/pannel/profile/location",
+              path: "/pannel/profile/Location",
               element: <Location />,
             },
           ],

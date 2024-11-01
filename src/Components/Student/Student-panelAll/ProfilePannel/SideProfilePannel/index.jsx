@@ -7,7 +7,7 @@ const index = () => {
       <div className="mt-4 w-1/4">
         <ul className="flex flex-col">
           <NavLink
-            to=""
+            to="/pannel/profile/accaunt"
             className={({ isActive }) =>
               `${isActive && "text-blue-400 font-extrabold"}`
             }
@@ -18,19 +18,19 @@ const index = () => {
             </a>
           </NavLink>
           <NavLink
-            to="/profile/ImagesProfile"
+            to="/pannel/profile/ImagesProfile"
             className="cursor-pointer text-gray-500 text-sm font-bold my-6"
           >
             <a> عکس ها </a>
           </NavLink>
           <NavLink
-            to="/Location"
+            to="/pannel/profile/Location"
             className="cursor-pointer text-gray-500 text-sm font-bold my-6"
           >
             <a> محل سکونت</a>
           </NavLink>
           <NavLink
-            to="/Links"
+            to="/pannel/profile/Links"
             className="cursor-pointer text-gray-500 text-sm font-bold my-6"
           >
             <a> لینک ها</a>
