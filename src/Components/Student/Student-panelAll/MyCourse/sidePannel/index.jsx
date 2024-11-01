@@ -58,7 +58,10 @@ const index = () => {
                 <img className="ml-2" src="\pannel\library.png"></img>
               </a>
             </NavLink>
-            <NavLink to="" className="cursor-pointer font-medium mt-3">
+            <NavLink
+              to="/pannel/profile"
+              className="cursor-pointer font-medium mt-3"
+            >
               <a className=" flex flex-row justify-end">
                 <span> پروفایل </span>
 

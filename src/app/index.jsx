@@ -21,6 +21,8 @@ import Forgot from "../screen/Forgot";
 import BlogDetail from "../Components/Blogs/BlogDetail";
 import CourseDetail from "../Components/Courses/CourseDetail";
 import ProfilePannel from "../Components/Student/Student-panelAll/ProfilePannel";
+import AccauntInfo from "../Components/Student/Student-panelAll/ProfilePannel/AccauntInfo";
+import ImagesProfile from "../Components/Student/Student-panelAll/ProfilePannel";
 
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -95,6 +97,18 @@ function App() {
         {
           path: "/pannel/profile",
           element: <ProfilePannel />,
+          children: [
+            {
+              path: "/pannel/profile/accaunt",
+              element: <AccauntInfo />,
+            },
+            {
+              path: "/pannel/profile/imagesprofile",
+              element: <ImagesProfile />,
+            },
+            {},
+            {},
+          ],
         },
       ],
     },
