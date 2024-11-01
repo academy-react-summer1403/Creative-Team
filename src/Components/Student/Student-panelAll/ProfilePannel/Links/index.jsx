@@ -5,7 +5,9 @@ const index = () => {
     <>
       <section>
         <div className=" flex flex-col gap-2 items-end mt-4">
-          <div className="font-bold text-xs text-right text-black">تلگرام </div>
+          <div className="font-bold text-xs text-right text-black dark:text-white">
+            تلگرام{" "}
+          </div>
           <input
             type="text"
             placeholder="لینک تلگرام خود را وارد کنید "
@@ -13,7 +15,7 @@ const index = () => {
           />
         </div>
         <div className=" flex flex-col gap-2 items-end mt-4">
-          <div className="font-bold text-xs text-right text-black">
+          <div className="font-bold text-xs text-right text-black dark:text-white">
             لینکدین{" "}
           </div>
           <input

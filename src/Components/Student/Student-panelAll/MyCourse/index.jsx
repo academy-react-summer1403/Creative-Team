@@ -1,7 +1,5 @@
-import SidePannel from "./sidePannel";
-import MenuPannel from "./MenuPannel";
-import DarkMode from "../../../Common/DarkMode";
-
+import React from "react";
+import Pagination from "../../../Common/Pagination";
 const index = () => {
   return (
     <>
@@ -147,7 +145,7 @@ const index = () => {
             </div>
           </div>
 
-          <div className=" my-10 mobile:w-[350px] mx-auto">
+          {/* <div className=" my-10 mobile:w-[350px] mx-auto">
             <div className="bg-gray-200 p-4 rounded-2xl flex flex-row justify-between gap-6">
               <img src="\imgLand\arrow-left-01.png"></img>
               <i>1</i>
@@ -156,7 +154,8 @@ const index = () => {
               <i>4</i>
               <img src="\imgLand\arrow-left.png"></img>
             </div>
-          </div>
+          </div> */}
+          <Pagination />
         </div>
       </div>
     </>

@@ -12,58 +12,74 @@ const index = () => {
           <ul className="text-lg mt-8">
             <NavLink
               to="/pannel/mydashboard"
-              className="cursor-pointer font-medium mt-3"
+              className={({ isActive }) =>
+                `${isActive && "text-blue-400 font-extrabold"}`
+              }
             >
               <a className=" flex flex-row justify-end">
-                <span>داشبورد</span>
+                <span className="cursor-pointer font-medium ">داشبورد</span>
                 <img className="ml-2" src="\pannel\activity-01.png"></img>
               </a>
             </NavLink>
             <NavLink
               to="/pannel/mycourse"
-              className="cursor-pointer font-medium mt-3"
+              className={({ isActive }) =>
+                `${isActive && "text-blue-400 font-extrabold"}`
+              }
             >
               <a className=" flex flex-row justify-end">
-                <span>دوره من</span>
+                <span className="cursor-pointer font-medium ">دوره من</span>
                 <img className="ml-2" src="\pannel\course.png"></img>
               </a>
             </NavLink>
             <NavLink
               to="/pannel/reservecourse"
-              className="cursor-pointer font-medium mt-3"
+              className={({ isActive }) =>
+                `${isActive && "text-blue-400 font-extrabold"}`
+              }
             >
               <a className=" flex flex-row justify-end">
-                <span>رزرو من</span>
+                <span className="cursor-pointer font-medium ">رزرو من</span>
 
                 <img className="ml-2" src="\pannel\book-02.png"></img>
               </a>
             </NavLink>
             <NavLink
               to="/pannel/coursefav"
-              className="cursor-pointer font-medium mt-3"
+              className={({ isActive }) =>
+                `${isActive && "text-blue-400 font-extrabold"}`
+              }
             >
               <a className=" flex flex-row justify-end">
-                <span>دوره مورد علاقه </span>
+                <span className="cursor-pointer font-medium ">
+                  دوره مورد علاقه{" "}
+                </span>
 
                 <img className="ml-2" src="\pannel\books-02.png"></img>
               </a>
             </NavLink>
             <NavLink
               to="/pannel/blogfav"
-              className="cursor-pointer font-medium mt-3"
+              className={({ isActive }) =>
+                `${isActive && "text-blue-400 font-extrabold"}`
+              }
             >
               <a className=" flex flex-row justify-end">
-                <span>بلاگ های مورد علاقه </span>
+                <span className="cursor-pointer font-medium ">
+                  بلاگ های مورد علاقه{" "}
+                </span>
 
                 <img className="ml-2" src="\pannel\library.png"></img>
               </a>
             </NavLink>
             <NavLink
               to="/pannel/profile"
-              className="cursor-pointer font-medium mt-3"
+              className={({ isActive }) =>
+                `${isActive && "text-blue-400 font-extrabold"}`
+              }
             >
               <a className=" flex flex-row justify-end">
-                <span> پروفایل </span>
+                <span className="cursor-pointer font-medium "> پروفایل </span>
 
                 <img className="ml-2" src="\pannel\user-square.png"></img>
               </a>

@@ -1,11 +1,9 @@
 import React from "react";
-import MenuPannel from "../MyCourse/MenuPannel";
-import SidePannel from "../MyCourse/sidePannel";
-
+import Pagination from "../../../Common/Pagination";
 const index = () => {
   return (
     <>
-      <div className="bg-white dark:bg-gray-700 dark:text-white rounded-2xl w-11/12 mx-auto flex flex-col justify-center items-end text-right">
+      <div className="bg-white text-black dark:bg-gray-700 dark:text-white rounded-2xl w-11/12 mx-auto flex flex-col justify-center items-end text-right">
         <div className="w-[200px]  mr-10 mt-6 font-bold text-xl">
           دوره های مورد علاقه{" "}
         </div>
@@ -163,16 +161,7 @@ const index = () => {
             </div>
           </div>
 
-          <div className=" my-10 mobile:w-[350px] mx-auto">
-            <div className="bg-gray-200 p-4 rounded-2xl flex flex-row justify-between gap-6">
-              <img src="\imgLand\arrow-left-01.png"></img>
-              <i>1</i>
-              <i>2</i>
-              <i>3</i>
-              <i>4</i>
-              <img src="\imgLand\arrow-left.png"></img>
-            </div>
-          </div>
+          <Pagination />
         </div>
       </div>
     </>

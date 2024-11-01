@@ -1,10 +1,11 @@
 import React from "react";
+import LeftSideForm from "../../RegisterForm/LeftSideForm";
 
 const index = () => {
   return (
     <>
       {/* ***************** page1 */}
-      <div className=" body-forgot top-40 left-28 flex flex-row ">
+      <div className=" body-forgot top-40 left-28 flex flex-row-reverse ">
         <div className="rightSection m-5 ml-15 ">
           <div className="top flex flex-row justify-content-between mt-1.5">
             <div className="right ml-5">
@@ -67,7 +68,7 @@ const index = () => {
             </div>
           </div>
         </div>
-        <div className="logo leftSection flex m-2 w-9/12 h-full border-solid backF bg-slate-100 left-8 mt-0.5 rounded-l-3xl ">
+        {/* <div className="logo leftSection flex m-2 w-9/12 h-full border-solid backF bg-slate-100 left-8 mt-0.5 rounded-l-3xl ">
           <div className=" bg-slate-100">
             <div className="flex flex-row">
               <img className="size-10" src="./src/assets/image/logo.png" />
@@ -89,11 +90,12 @@ const index = () => {
               />
             </div>
           </div>
-        </div>
+        </div> */}
+        <LeftSideForm />
       </div>
 
       {/* ***************** page2 */}
-      <div className="body sourcePage flex flex-row border-1 justify-evenly ">
+      <div className="body sourcePage flex flex-row-reverse border-1 justify-evenly ">
         <div className="rightSection m-5 ml-15 ">
           <div className="top flex flex-row justify-content-between mt-1.5">
             <div className="right ml-5 flex flex-col">

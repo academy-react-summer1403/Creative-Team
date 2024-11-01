@@ -7,10 +7,15 @@ const index = () => {
       <div className="mt-4 w-1/4">
         <ul className="flex flex-col">
           <NavLink
-            to="/profile/accauntInfo"
-            className="cursor-pointer text-gray-500 text-sm font-bold mb-6"
+            to=""
+            className={({ isActive }) =>
+              `${isActive && "text-blue-400 font-extrabold"}`
+            }
           >
-            <a> اطلاعات حساب کاربری</a>
+            <a className=" text-gray-500 text-sm font-bold mb-6">
+              {" "}
+              اطلاعات حساب کاربری
+            </a>
           </NavLink>
           <NavLink
             to="/profile/ImagesProfile"

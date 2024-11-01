@@ -6,7 +6,7 @@ const index = () => {
       <div className="">
         <div className="flex flex-row-reverse">
           <div className=" w-[300px]  flex flex-col gap-2 items-end">
-            <div className="font-bold text-sm text-right text-gray-700">
+            <div className="font-bold text-sm text-right text-gray-700 dark:text-black">
               نام{" "}
             </div>
             <input
@@ -16,7 +16,7 @@ const index = () => {
             />
           </div>
           <div className=" w-[300px]  flex flex-col gap-2 items-end">
-            <div className="font-bold text-sm text-right text-gray-700">
+            <div className="font-bold text-sm text-right text-gray-700 dark:text-black">
               نام خانوادگی{" "}
             </div>
             <input
@@ -27,7 +27,7 @@ const index = () => {
           </div>
         </div>
         <div className=" flex flex-col gap-2 items-end mt-4">
-          <div className="font-bold text-xs text-right text-black">
+          <div className="font-bold text-xs text-right text-gray-700 dark:text-black">
             درباره من{" "}
           </div>
           <input
@@ -38,7 +38,7 @@ const index = () => {
         </div>
         <div className="flex flex-row-reverse mt-4">
           <div className=" w-[300px]  flex flex-col gap-2 items-end">
-            <div className="font-bold text-sm text-right text-gray-700">
+            <div className="font-bold text-sm text-right text-gray-700 dark:text-black">
               شماره همراه{" "}
             </div>
             <input
@@ -48,7 +48,7 @@ const index = () => {
             />
           </div>
           <div className=" w-[300px]  flex flex-col gap-2 items-end">
-            <div className="font-bold text-sm text-right text-gray-700">
+            <div className="font-bold text-sm text-right text-gray-700 dark:text-black">
               کدملی{" "}
             </div>
             <input
@@ -60,7 +60,7 @@ const index = () => {
         </div>
         <div className="flex flex-row-reverse mt-4">
           <div className=" w-[300px]  flex flex-col gap-2 items-end">
-            <div className="font-bold text-sm text-right text-gray-700">
+            <div className="font-bold text-sm text-right text-gray-700 dark:text-black">
               تاریخ تولد{" "}
             </div>
             <input
@@ -70,12 +70,12 @@ const index = () => {
             />
           </div>
           <div className=" w-[300px]  flex flex-col gap-2 items-end">
-            <div className="font-bold text-sm text-right text-gray-700">
+            <div className="font-bold text-sm text-right text-gray-700 dark:text-black">
               جنسیت{" "}
             </div>
             <div className=" w-[300px] flex flex-row-reverse justify-start gap-10">
               <div className="flex flex-row items-center gap-1">
-                <div className="text-black text-sm">مرد</div>
+                <div className="text-gray-700 dark:text-black text-sm">مرد</div>
                 <input
                   type="radio"
                   className="w-[15px] h-[15px] border border-gray-300 rounded-3xl text-right text-xs"
@@ -83,7 +83,7 @@ const index = () => {
               </div>
 
               <div className="flex flex-row items-center gap-1">
-                <div className="text-black text-sm">زن</div>
+                <div className="text-gray-700 dark:text-black text-sm">زن</div>
                 <input
                   type="radio"
                   className="w-[15px] h-[15px] border border-gray-300 rounded-3xl text-right text-xs"
@@ -94,7 +94,9 @@ const index = () => {
           </div>
         </div>
         <div className=" flex flex-col gap-2 items-end mt-4">
-          <div className="font-bold text-xs text-right text-black">ایمیل </div>
+          <div className="font-bold text-xs text-right text-gray-700 dark:text-black">
+            ایمیل{" "}
+          </div>
           <input
             type="text"
             placeholder="ایمیل خود را وارد کنید "
@@ -102,7 +104,7 @@ const index = () => {
           />
         </div>
         <div className=" flex flex-col gap-2 items-end mt-4">
-          <div className="font-bold text-xs text-right text-black">
+          <div className="font-bold text-xs text-right text-gray-700 dark:text-black">
             آدرس سکونت{" "}
           </div>
           <input

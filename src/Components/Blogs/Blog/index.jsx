@@ -19,7 +19,7 @@ const index = () => {
             </div>
           </div>
         </div>
-        <div className="blogMain flex place-self-start gap-8 justify-start ">
+        <div className="blogMain flex flex-row-reverse place-self-start gap-8 justify-start ">
           <div className="right flex flex-col text-right border-2  rounded-3xl p-4 gap-1 w-72 h-96 justify-between">
             <h2 className="font-bold text-2xl	">فیلتر</h2>
             <div className="flex gap-1">

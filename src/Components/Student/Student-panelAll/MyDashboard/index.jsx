@@ -2,7 +2,7 @@ import React from "react";
 
 const index = () => {
   return (
-    <div>
+    <div className="bg-white dark:bg-gray-700 text-black dark:text-white rounded-2xl w-11/12 mx-auto flex flex-col justify-center items-end text-right">
       <div className="flex flex-col gap-1 w-[1126px] h-[928px]   rounded-3xl ml-6 text-black">
         <div className="flex gap-40  h-[147px] m-auto">
           <div className=" w-[504px] m-auto flex flex-col ">
