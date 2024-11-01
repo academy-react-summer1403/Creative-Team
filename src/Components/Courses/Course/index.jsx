@@ -4,7 +4,7 @@ import TopCourselistTitle from "./TopCourselistTitle";
 import CategoryTabs from "./CategoryTabs";
 import CatTabsInMobile from "./CatTabsInMobile";
 import Pagination from "../../Common/Pagination";
-import FilterSide from "./FiterSide";
+import FilterSide from "./FilterSide";
 
 const TopCourseData = [
   {

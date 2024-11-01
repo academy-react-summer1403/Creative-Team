@@ -5,8 +5,8 @@ import DarkMode from "../../../Common/DarkMode";
 const index = () => {
   return (
     <>
-      <div className="bg-white dark:bg-gray-700 dark:text-white rounded-2xl w-11/12  mx-auto flex flex-col justify-center items-end text-right">
-        <div className="w-[200px]  mr-10 mt-6 font-bold text-xl">دوره من</div>
+      <div className="bg-white dark:bg-gray-700 text-black dark:text-white rounded-2xl w-11/12  mx-auto flex flex-col justify-center items-end text-right">
+        <div className="w-[200px]  mr-10 mt-6 font-bold text-xl ">دوره من</div>
         <div className="  my-6 flex flex-row justify-around gap-20 mr-12">
           <div className="">
             <lable className="flex flex-row justify-end text-sm font-bold">

@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import MenuPannel from "../../../Components/Student/Student-panelAll/MyCourse/MenuPannel";
-import SidePannel from "../../../Components/Student/Student-panelAll/MyCourse/sidePannel";
+import MenuPannel from "./MenuPannel";
+import SidePannel from "./sidePannel";
 import DarkMode from "../../../Components/Common/DarkMode";
 
 const index = () => {
@@ -44,4 +44,3 @@ const index = () => {
 };
 
 export default index;
-

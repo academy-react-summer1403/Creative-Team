@@ -1,6 +1,6 @@
 import React from "react";
-import MenuPannel from "../MyCourse/MenuPannel";
-import SidePannel from "../MyCourse/sidePannel";
+import MenuPannel from "../../../../Screen/Panels/RootStuPannel/MenuPannel";
+import SidePannel from "../../../../Screen/Panels/RootStuPannel/sidePannel";
 
 const index = () => {
   return (
