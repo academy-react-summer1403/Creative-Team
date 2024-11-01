@@ -3,7 +3,7 @@ import React from "react";
 const index = () => {
   return (
     <>
-      <div className=" w-3/4 h-full">
+      <div className="">
         <div className="flex flex-row-reverse">
           <div className=" w-[300px]  flex flex-col gap-2 items-end">
             <div className="font-bold text-sm text-right text-gray-700">

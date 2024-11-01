@@ -23,6 +23,8 @@ import CourseDetail from "../Components/Courses/CourseDetail";
 import ProfilePannel from "../Components/Student/Student-panelAll/ProfilePannel";
 import AccauntInfo from "../Components/Student/Student-panelAll/ProfilePannel/AccauntInfo";
 import ImagesProfile from "../Components/Student/Student-panelAll/ProfilePannel";
+import Links from "../Components/Student/Student-panelAll/ProfilePannel";
+import Location from "../Components/Student/Student-panelAll/ProfilePannel";
 
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -106,8 +108,14 @@ function App() {
               path: "/pannel/profile/imagesprofile",
               element: <ImagesProfile />,
             },
-            {},
-            {},
+            {
+              path: "/pannel/profile/links",
+              element: <Links />,
+            },
+            {
+              path: "/pannel/profile/location",
+              element: <Location />,
+            },
           ],
         },
       ],
