@@ -20,6 +20,7 @@ import NotFound from "../Components/Common/NotFound";
 import Forgot from "../screen/Forgot";
 import BlogDetail from "../Components/Blogs/BlogDetail";
 import CourseDetail from "../Components/Courses/CourseDetail";
+import ProfilePannel from "../Components/Student/Student-panelAll/ProfilePannel";
 
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -91,10 +92,10 @@ function App() {
           path: "/pannel/blogfav",
           element: <BlogFav />,
         },
-        // {
-        //   path: "/pannel/profile",
-        //   element: <Profile />,
-        // },
+        {
+          path: "/pannel/profile",
+          element: <ProfilePannel />,
+        },
       ],
     },
     {
