@@ -20,7 +20,7 @@ export default {
         desktop: "1500px",
         // sm: "395px",
         mob: "395px",
-        md: "1440px",
+        // md: "1440px",
         modalComment: "851px",
         leftSection: "748px",
       },

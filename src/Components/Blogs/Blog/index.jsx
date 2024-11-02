@@ -2,9 +2,9 @@ import React from "react";
 const index = () => {
   return (
     <>
-      <div className="yellow-400   dark:bg-indigo-950">
+      <div className="yellow-400  w-[1440px] dark:bg-indigo-950">
         {" "}
-        <div className="sourcePage flex flex-col ">
+        <div className="sourcePage flex flex-col justify-content-centre">
           <div className="">
             <div className="topheader">
               <h2 className="danaRegular text-nowrap font-medium mt-8	text-4xl	 pb-2">
@@ -19,15 +19,15 @@ const index = () => {
             </div>
           </div>
         </div>
-        <div className="blogMain flex flex-row-reverse place-self-start gap-8 justify-start ">
-          <div className="right flex flex-col text-right border-2  rounded-3xl p-4 gap-1 w-72 h-96 justify-between">
+        <div className="blogMain flex flex-row-reverse justify-evenly ">
+          <div className="right flex flex-col mt-10  text-right border-2  rounded-3xl p-4 gap-1 w-72 h-96 justify-end">
             <h2 className="font-bold text-2xl	">فیلتر</h2>
             <div className="flex gap-1">
               <img
                 src="./src/assets/BlogImg/search-01-stroke-rounded 1.png"
                 className=""
               />
-              <h2 className="font-medium text-black	text-base"> جستجو</h2>
+              <h2 className="font-medium text-black	text-base "> جستجو</h2>
             </div>
             <div className="bg-gray-200 rounded-2xl  w-56	h-12	flex">
               <input
@@ -42,7 +42,7 @@ const index = () => {
                 />
               </div>
             </div>
-            <div className="">
+            <div className="text-right">
               <div className="flex gap-1 mb-1">
                 <img
                   src="./src/assets/BlogImg/cells-stroke-rounded 1.png"
@@ -90,8 +90,8 @@ const index = () => {
               </div>
             </div>
           </div>
-          <div className="left flex flex-col ">
-            <div className="flex mb-1">
+          <div className="left flex flex-col w-[1030px] ">
+            <div className="flex mb-1 justify-end">
               <h2 className="mr-1 mt-2 text-xl	font-bold	leading-7	">ترتیب</h2>
               <span className="border-2 w-28	h-10	pt-1 rounded-3xl	 font-medium	text-lg	 flex gap-1 mr-2 p-2 text-red-500 border-red-500">
                 جدیدترین
