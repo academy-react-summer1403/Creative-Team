@@ -22,9 +22,9 @@ import BlogDetail from "../Components/Blogs/BlogDetail";
 import CourseDetail from "../Components/Courses/CourseDetail";
 import ProfilePannel from "../Components/Student/Student-panelAll/ProfilePannel";
 import AccauntInfo from "../Components/Student/Student-panelAll/ProfilePannel/AccauntInfo";
-import ImagesProfile from "../Components/Student/Student-panelAll/ProfilePannel";
-import Links from "../Components/Student/Student-panelAll/ProfilePannel";
-import Location from "../Components/Student/Student-panelAll/ProfilePannel";
+import ImagesProfile from "../Components/Student/Student-panelAll/ProfilePannel/ImagesProfile";
+import Links from "../Components/Student/Student-panelAll/ProfilePannel/Links";
+import Location from "../Components/Student/Student-panelAll/ProfilePannel/Location";
 
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -100,10 +100,10 @@ function App() {
           path: "/pannel/profile",
           element: <ProfilePannel />,
           children: [
-            {
-              path: "/pannel/profile/accaunt",
-              element: <AccauntInfo />,
-            },
+            // {
+            //   path: "/pannel/profile/accaunt",
+            //   element: <AccauntInfo />,
+            // },
             {
               path: "/pannel/profile/ImagesProfile",
               element: <ImagesProfile />,

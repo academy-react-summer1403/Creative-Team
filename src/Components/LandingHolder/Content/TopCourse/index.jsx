@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import CardCourse from "../../../Common/CardCourse";
+// import axios from "axios";
 
 const TopCourseData = [
   {
@@ -46,6 +47,7 @@ const TopCourseData = [
 ];
 const index = () => {
   const navigate = useNavigate();
+
   return (
     <>
       <section className=" mobile:w-[1330px] w-[393px] my-8  flex flex-col gap-8 items-center">

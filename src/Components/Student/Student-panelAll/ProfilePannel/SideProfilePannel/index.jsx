@@ -7,33 +7,34 @@ const index = () => {
       <div className="mt-4 w-1/4">
         <ul className="flex flex-col">
           <NavLink
-            to="/pannel/profile/accaunt"
-            className={({ isActive }) =>
-              `${isActive && "text-blue-400 font-extrabold"}`
-            }
+            to="/pannel/profile"
+            className={({ isActive }) => `${isActive && "text-blue-400"}`}
           >
-            <a className=" text-gray-500 text-sm font-bold mb-6">
-              {" "}
-              اطلاعات حساب کاربری
-            </a>
+            <a className=" text-sm font-bold mb-6"> اطلاعات حساب کاربری</a>
           </NavLink>
           <NavLink
             to="/pannel/profile/ImagesProfile"
-            className="cursor-pointer text-gray-500 text-sm font-bold my-6"
+            className={({ isActive }) => `${isActive && "text-blue-400 "}`}
           >
-            <a> عکس ها </a>
+            <a className=" text-gray-500 text-sm font-bold "> عکس ها </a>
           </NavLink>
           <NavLink
             to="/pannel/profile/Location"
-            className="cursor-pointer text-gray-500 text-sm font-bold my-6"
+            className={({ isActive }) => `${isActive && "text-blue-400 "}`}
           >
-            <a> محل سکونت</a>
+            <a className=" cursor-pointer text-gray-500 text-sm font-bold my-6">
+              {" "}
+              محل سکونت
+            </a>
           </NavLink>
           <NavLink
             to="/pannel/profile/Links"
-            className="cursor-pointer text-gray-500 text-sm font-bold my-6"
+            className={({ isActive }) => `${isActive && "text-blue-400 "}`}
           >
-            <a> لینک ها</a>
+            <a className="cursor-pointer text-gray-500 text-sm font-bold my-6">
+              {" "}
+              لینک ها
+            </a>
           </NavLink>
         </ul>
       </div>

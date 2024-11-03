@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { BsCalendar4Week } from "react-icons/bs";
 import { BsEye } from "react-icons/bs";
@@ -8,6 +8,7 @@ import OurGoals from "./OurGoals";
 import Tabs from "./Tabs";
 import Servises from "./Servises";
 import Teachers from "./Teachers";
+// import axios from "axios";
 
 const blogsData = [
   {
@@ -37,6 +38,20 @@ const blogsData = [
 ];
 const index = () => {
   const navigate = useNavigate();
+  // const [courseList, setCourseList] = useState();
+
+  // const getCourseList = async () => {
+  //   console.log("fetching data");
+  //   const result = await axios.get(
+  //     "https://api-academy.iran.liara.run/api/Home/GetCourseTop?count=4"
+  //   );
+  //   console.log(result.data);
+  //   setCourseList(result.data);
+  // };
+  // useEffect(() => {
+  //   getCourseList();
+  // }, []);
+
   return (
     <>
       <section className=" flex flex-col gap-8 mobile:w-[1330px] w-[393px] dark:bg-gray-950">
