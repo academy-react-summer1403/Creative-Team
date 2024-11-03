@@ -2,23 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-/* #root {
-   max-width: 1280px; 
-  margin: 0 auto;
-   padding: 2rem; 
-  text-align: center;
-  direction: rtl;
-  max-width: 1440px;
-   height: 1024px; 
+#root {
   margin: 0 auto;
   padding: 2rem;
-   text-align: center; 
-  overflow: hidden; 
+  text-align: center;
+  /* direction: rtl; */
+  max-width: 1440px;
   display: flex;
-  width: clamp(390px, 1440px, 2000px); 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   color: black;
-} */
+}
 
 @layer base {
   @font-face {
