@@ -25,6 +25,7 @@ import AccauntInfo from "../Components/Student/Student-panelAll/ProfilePannel/Ac
 import ImagesProfile from "../Components/Student/Student-panelAll/ProfilePannel/ImagesProfile";
 import Links from "../Components/Student/Student-panelAll/ProfilePannel/Links";
 import Location from "../Components/Student/Student-panelAll/ProfilePannel/Location";
+// import CommentModalBlog from "";
 
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -54,6 +55,10 @@ function App() {
           path: "/blogs/detail",
           element: <BlogDetail />,
         },
+        // {
+        //   path: "/blogs/detail/Comment",
+        //   element: <CommentModalBlog />,
+        // },
         {
           path: "/about",
           element: <AboutUs />,

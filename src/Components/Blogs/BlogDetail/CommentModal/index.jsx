@@ -68,7 +68,7 @@ const index = () => {
             />
             <h4 className="text-black">۱</h4>
           </div>
-          <div className="text-black border f2 pt-2 border-blue-400 text-blue-400 w-[99px] h-[39px] rounded-3xl text-center">
+          <div className=" border f2 pt-2 border-blue-400 text-blue-400 w-[99px] h-[39px] rounded-3xl text-center">
             جواب دادن
           </div>
         </div>

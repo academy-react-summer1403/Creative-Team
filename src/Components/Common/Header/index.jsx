@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 const index = () => {
   return (
     <>
-      <section className=" mobile:w-[1330px] w-[395px] dark:bg-gray-950">
+      <section className=" mobile:w-[1360px] w-[395px] dark:bg-gray-950">
         <section className=" w-full flex flex-row justify-around gap-20  items-center">
           <div className="hidden mobile:flex flex-row gap-1 w-24 h-10 mt-1 ">
             <DarkMode />
