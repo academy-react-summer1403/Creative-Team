@@ -1,5 +1,6 @@
 import React from "react";
 import DetailBlogCard from "../BlogDetail/DetailBlogCard/index";
+import { NavLink, Link } from "react-router-dom";
 
 const blogsData = [
   {
@@ -32,10 +33,10 @@ const index = () => {
   return (
     <>
       {" "}
-      <div className="flex flex-col h-[2133px] mt-8 border">
+      <div className="flex flex-col h-[2133px] mt-8 ">
         <div className="">
           <DetailBlogCard />
-          <div className="flex  flex-col gap-1 mt-96 ">
+          <div className="flex  flex-col gap-1 mt-96 mr-10">
             <div className="mb-10 mr-8 ">
               <h2 className="f4 f40 mx-[1080px] text-nowrap">
                 نظرات دانشجو ها و اساتید
@@ -171,12 +172,19 @@ const index = () => {
                 </div>
               </div>
               <div className="flex gap-1"></div>
-              <div
-                onClick={() => {}}
-                className="border text-nowrap mx-auto mt-4  p-3 cursor-pointer w-[125px] text-center h-[39] rounded-3xl bg-black text-white"
+              <NavLink
+                to="/blogs/detail/Comment"
+                className={({ isActive }) =>
+                  `${isActive && "text-blue-600 font-extrabold"}`
+                }
               >
-                مشاهده بیشتر
-              </div>
+                <button
+                  onClick={() => {}}
+                  className="border text-nowrap mx-auto mt-4  p-3 cursor-pointer w-[125px] text-center h-[39] rounded-3xl bg-black text-white"
+                >
+                  مشاهده بیشتر
+                </button>
+              </NavLink>
             </div>
           </div>
           <div className="bartarBlog w-[1440px] mt-70 pr-32 ">
@@ -187,41 +195,55 @@ const index = () => {
                 <h2 className="text-3xl text-right mr-3 font-bold mb-8 dark:text-white">
                   بلاگ های مرتبط
                 </h2>
-                <div className=" flex flex-row-reverse  justify-center gap-8 mx-2 ">
-                  {blogsData.map((blog, index) => (
-                    <div
-                      key={index}
-                      className=" bg-white dark:bg-indigo-900 rounded-lg  flex-1 "
-                    >
+                <NavLink
+                  to="/blogs/detail/"
+                  className={({ isActive }) =>
+                    `${isActive && "text-blue-600 font-extrabold"}`
+                  }
+                >
+                  <div className=" flex flex-row-reverse  justify-center gap-8 mx-2 ">
+                    {blogsData.map((blog, index) => (
                       <div
-                        className={`h-72 mx-auto flex justify-center items-center mb-4 rounded-xl ${blog.color}`}
+                        key={index}
+                        className=" bg-white dark:bg-indigo-900 rounded-lg  flex-1 "
                       >
-                        <img src={blog.icon} alt={""} className={`size-48 `} />
-                      </div>
-                      <h3 className="flex flex-row-reverse text-l font-bold mb-2 ml-10 dark:text-white">
-                        {blog.title}
-                      </h3>
-                      <div className="flex flex-row-reverse justify-between mt-4 text-gray-500 space-x-2 rtl:space-x-reverse mb-2">
-                        <p className="flex text-gray-400 dark:text-white text-sm items-center ">
-                          {blog.author}
-                        </p>
-                        <div>
-                          <span
-                            className={`inline-flex items-center dark:text-white text-xs gap-2 w-32 `}
-                          >
-                            <i /> {blog.date}
-                            {/* <BsCalendar4Week /> */}
-                          </span>
-                          <span className="inline-flex items-center dark:text-white text-xs gap-2">
-                            <i /> {blog.views}
-                            {/* <BsEye /> */}
-                          </span>
+                        <div
+                          className={`h-72 mx-auto flex justify-center items-center mb-4 rounded-xl ${blog.color}`}
+                        >
+                          <img
+                            src={blog.icon}
+                            alt={""}
+                            className={`size-48 `}
+                          />
+                        </div>
+                        <h3 className="flex flex-row-reverse text-l font-bold mb-2 ml-10 dark:text-white">
+                          {blog.title}
+                        </h3>
+                        <div className="flex flex-row-reverse justify-between mt-4 text-gray-500 space-x-2 rtl:space-x-reverse mb-2">
+                          <p className="flex text-gray-400 dark:text-white text-sm items-center ">
+                            {blog.author}
+                          </p>
+                          <div>
+                            <span
+                              className={`inline-flex items-center dark:text-white text-xs gap-2 w-32 `}
+                            >
+                              <i /> {blog.date}
+                              {/* <BsCalendar4Week /> */}
+                            </span>
+                            <span className="inline-flex items-center dark:text-white text-xs gap-2">
+                              <i /> {blog.views}
+                              {/* <BsEye /> */}
+                            </span>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  ))}
-                </div>
-                <button className="bg-gray-900  dark:bg-blue-500 text-white px-5 py-1.5 rounded-full mt-8">
+                    ))}
+                  </div>
+                </NavLink>
+                <button
+                  onClick={() => {}}
+                  className="bg-gray-900  dark:bg-blue-500 text-white px-5 py-1.5 rounded-full mt-8"
+                >
                   مشاهده بیشتر
                 </button>
               </div>
