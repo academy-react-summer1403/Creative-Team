@@ -8,7 +8,7 @@ import OurGoals from "./OurGoals";
 import Tabs from "./Tabs";
 import Servises from "./Servises";
 import Teachers from "./Teachers";
-// import axios from "axios";
+import axios from "axios";
 
 const blogsData = [
   {
@@ -38,19 +38,6 @@ const blogsData = [
 ];
 const index = () => {
   const navigate = useNavigate();
-  // const [courseList, setCourseList] = useState();
-
-  // const getCourseList = async () => {
-  //   console.log("fetching data");
-  //   const result = await axios.get(
-  //     "https://api-academy.iran.liara.run/api/Home/GetCourseTop?count=4"
-  //   );
-  //   console.log(result.data);
-  //   setCourseList(result.data);
-  // };
-  // useEffect(() => {
-  //   getCourseList();
-  // }, []);
 
   return (
     <>

@@ -45,7 +45,7 @@ const TopCourseData = [
     color: "bg-blue-700",
   },
 ];
-const index = () => {
+const index = ({ coursList }) => {
   const navigate = useNavigate();
 
   return (

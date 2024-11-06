@@ -59,7 +59,7 @@ const index = () => {
                 مرا بخاطر بسپار
                 <input
                   className="w-[15px] h-[15px] bg-gray-200"
-                  type="checked"
+                  type="radio"
                 ></input>
               </div>
             </div>

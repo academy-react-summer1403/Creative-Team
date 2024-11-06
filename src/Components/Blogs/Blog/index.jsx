@@ -8,7 +8,7 @@ import HeaderExplain from "./HeaderExplain";
 const index = () => {
   return (
     <>
-      <div className="yellow-400  w-[1440px] dark:bg-indigo-950">
+      <div className="yellow-400  w-[1300px] dark:bg-indigo-950">
         {" "}
         <div className="sourcePage flex flex-col justify-content-centre">
           <HeaderExplain />

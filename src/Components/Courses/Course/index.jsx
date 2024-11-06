@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CardCourse from "../../Common/CardCourse";
 import TopCourselistTitle from "./TopCourselistTitle";
 import CategoryTabs from "./CategoryTabs";
 import CatTabsInMobile from "./CatTabsInMobile";
 import Pagination from "../../Common/Pagination";
 import FilterSide from "./FilterSide";
+import axios from "axios";
 
 const TopCourseData = [
   {
@@ -100,7 +101,18 @@ const TopCourseData = [
 ];
 const index = () => {
   // function handleDetail(id) {}
+  // const getCourseList = async () => {
+  //   console.log("fetching data");
+  //   const result = await axios.get(
+  //     "https://classapi.sepehracademy.ir/api/Home/GetCoursesTop?Count=3"
+  //   );
+  //   console.log("fetching data2222222");
+  //   console.log(result.data);
+  // };
 
+  // useEffect(() => {
+  //   getCourseList();
+  // }, []);
   return (
     <>
       <section className=" mobile:w-[1330px] w-[393px] flex flex-col items-center gap-2 dark:bg-gray-950">
@@ -110,7 +122,11 @@ const index = () => {
             <CategoryTabs />
             <CatTabsInMobile />
 
-            <div className="   mx-auto mobile:flex mobile:flex-wrap justify-center mobile:gap-16">
+            <div
+              // onClick={Onhandle}
+              className="   mx-auto mobile:flex mobile:flex-wrap justify-center mobile:gap-16"
+            >
+              {/* click me */}
               {TopCourseData.map((course, index) => {
                 return (
                   <CardCourse
