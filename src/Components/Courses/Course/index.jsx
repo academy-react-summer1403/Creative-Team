@@ -6,6 +6,7 @@ import CatTabsInMobile from "./CatTabsInMobile";
 import Pagination from "../../Common/Pagination";
 import FilterSide from "./FilterSide";
 import axios from "axios";
+import { useState } from "react";
 
 const TopCourseData = [
   {
@@ -100,19 +101,21 @@ const TopCourseData = [
   },
 ];
 const index = () => {
-  // function handleDetail(id) {}
-  // const getCourseList = async () => {
-  //   console.log("fetching data");
-  //   const result = await axios.get(
-  //     "https://classapi.sepehracademy.ir/api/Home/GetCoursesTop?Count=3"
-  //   );
-  //   console.log("fetching data2222222");
-  //   console.log(result.data);
-  // };
+  function handleDetail(id) {}
+  const [courses, setCourses] = useState();
+  const getCourseList = async () => {
+    console.log("fetching data");
+    const result = await axios.get(
+      "https://classapi.sepehracademy.ir/api/Home/GetCoursesWithPagination?PageNumber=1&RowsOfPage=9&SortingCol=Active&SortType=DESC&TechCount=0"
+    );
+    console.log("fetching data2222222");
+    console.log(result.data);
+    setCourses(result?.data);
+  };
 
-  // useEffect(() => {
-  //   getCourseList();
-  // }, []);
+  useEffect(() => {
+    getCourseList();
+  }, []);
   return (
     <>
       <section className=" mobile:w-[1330px] w-[393px] flex flex-col items-center gap-2 dark:bg-gray-950">
@@ -127,18 +130,19 @@ const index = () => {
               className="   mx-auto mobile:flex mobile:flex-wrap justify-center mobile:gap-16"
             >
               {/* click me */}
-              {TopCourseData.map((course, index) => {
+              {courses?.map((course, index) => {
                 return (
                   <CardCourse
                     key={index}
                     title={course.title}
-                    color={course.color}
-                    icon={course.icon}
-                    author={course.author}
-                    catType={course.catType}
-                    catName={course.catName}
-                    price={course.price}
-                    id={course.id}
+                    // color={course.color}
+                    // icon={course.icon}
+                    tumbImageAddress={item.tumbImageAddress}
+                    teacherName={item.teacherName}
+                    levelName={item.levelName}
+                    typeName={item.typeName}
+                    cost={item.cost}
+                    courseId={item.courseId}
                   />
                 );
               })}

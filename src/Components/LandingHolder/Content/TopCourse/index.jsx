@@ -1,6 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import CardCourse from "../../../Common/CardCourse";
+import { useState } from "react";
+import axios from "axios";
+import { useEffect } from "react";
 // import axios from "axios";
 
 const TopCourseData = [
@@ -45,8 +48,23 @@ const TopCourseData = [
     color: "bg-blue-700",
   },
 ];
-const index = ({ coursList }) => {
+const index = () => {
   const navigate = useNavigate();
+  const [courses, setCourses] = useState();
+
+  const getCourseList = async () => {
+    console.log("fetching data");
+    const result = await axios.get(
+      "https://classapi.sepehracademy.ir/api/Home/GetCoursesTop?Count=4"
+    );
+    console.log("fetching data22");
+    console.log(result.data);
+    setCourses(result?.data);
+  };
+
+  useEffect(() => {
+    getCourseList();
+  }, []);
 
   return (
     <>
@@ -55,18 +73,19 @@ const index = ({ coursList }) => {
           دوره های برتر هفته
         </div>
         <div className=" mobile:w-[1330px]  w-[393px] flex flex-row justify-start gap-2 my-0">
-          {TopCourseData.map((course, index) => {
+          {courses?.map((item, index) => {
             return (
               <CardCourse
                 key={index}
-                title={course.title}
-                color={course.color}
-                icon={course.icon}
-                author={course.author}
-                catType={course.catType}
-                catName={course.catName}
-                price={course.price}
-                id={course.id}
+                title={item.title}
+                // color={course.color}
+                // icon={course.icon}
+                tumbImageAddress={item.tumbImageAddress}
+                teacherName={item.teacherName}
+                levelName={item.levelName}
+                typeName={item.typeName}
+                cost={item.cost}
+                courseId={item.courseId}
               />
             );
           })}

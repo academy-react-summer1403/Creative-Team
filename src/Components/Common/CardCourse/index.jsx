@@ -2,13 +2,12 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 const index = ({
   title,
-  icon,
-  color,
-  author,
-  catName,
-  catType,
-  price,
-  id,
+  tumbImageAddress,
+  teacherName,
+  levelName,
+  typeName,
+  cost,
+  courseId,
   onHandleDetail,
 }) => {
   const navigate = useNavigate();
@@ -19,16 +18,19 @@ const index = ({
         onClick={onHandleDetail}
       >
         <div
-          className={`  h-60 w-full mx-auto flex justify-center items-center mb-4 rounded-2xl ${color}`}
-          onClick={() => navigate("/coursedetail/" + id)}
+          className=" h-60 w-full mx-auto flex justify-center items-center mb-4 rounded-2xl"
+          onClick={() => navigate("/coursedetail/" + courseId)}
         >
-          <img className=" h-1/4 rounded-3xl  flex flex-row" src={icon}></img>
+          <img
+            className=" h-1/4 rounded-3xl  flex flex-row"
+            src={tumbImageAddress}
+          ></img>
         </div>
         <span className="bg-pink-400 rounded-2xl w-2/6 py-1 text-white text-sm text-center relative -top-60 left-36">
-          {catType}
+          {levelName}
         </span>
         <span className="bg-blue-300 rounded-2xl w-2/6 py-1 text-white text-sm text-center relative -top-60 left-36">
-          {catName}
+          {typeName}
         </span>
 
         <div className=" flex flex-col gap-3 w-5/6 mx-auto">
@@ -40,10 +42,10 @@ const index = ({
               <span className="font-serif mobile:font-medium font-normal mobile:text-lg text-sm text-black">
                 تومان
               </span>
-              <span className="mobile:text-base text-xs">{price}</span>
+              <span className="mobile:text-base text-xs">{cost}</span>
             </div>
             <span className="  w-[140px] font-serif font-normal text-sm text-gray-700 text-right text-nowrap">
-              {author}
+              {teacherName}
             </span>
           </div>
         </div>

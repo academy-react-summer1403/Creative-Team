@@ -38,6 +38,21 @@ const blogsData = [
 ];
 const index = () => {
   const navigate = useNavigate();
+  // const [courses, setCourses] = useState();
+
+  // const getCourseList = async () => {
+  //   console.log("fetching data");
+  //   const result = await axios.get(
+  //     "https://classapi.sepehracademy.ir/api/Home/GetCoursesTop?Count=4"
+  //   );
+  //   console.log("fetching data22");
+  //   console.log(result.data);
+  //   setCourses(result.data);
+  // };
+
+  // useEffect(() => {
+  //   getCourseList();
+  // }, []);
 
   return (
     <>
