@@ -5,7 +5,7 @@ const index = ({
   tumbImageAddress,
   teacherName,
   levelName,
-  typeName,
+  statusName,
   cost,
   courseId,
   onHandleDetail,
@@ -14,9 +14,17 @@ const index = ({
   return (
     <>
       <div
-        className="  flex flex-col p-0 justify-center gap-1 mobile:w-1/4 w-11/12 bg-slate-100 rounded-3xl dark:bg-slate-200 dark:rounded-3xl cursor-pointer"
+        className="  flex flex-col p-0 justify-center mobile:w-[300px] w-11/12 mobile:h-[400px] bg-slate-100 rounded-3xl dark:bg-slate-200 dark:rounded-3xl cursor-pointer"
         onClick={onHandleDetail}
       >
+        <div className="  flex flex-row-reverse gap-2 mr-4">
+          <span className="bg-pink-400 rounded-2xl w-[100px] py-1 text-white text-xs text-center  ">
+            {levelName}
+          </span>
+          <span className="bg-blue-300 rounded-2xl w-[100px] py-1 text-white text-xs text-center ">
+            {statusName}
+          </span>
+        </div>
         <div
           className=" h-60 w-full mx-auto flex justify-center items-center mb-4 rounded-2xl"
           onClick={() => navigate("/coursedetail/" + courseId)}
@@ -26,12 +34,6 @@ const index = ({
             src={tumbImageAddress}
           ></img>
         </div>
-        <span className="bg-pink-400 rounded-2xl w-2/6 py-1 text-white text-sm text-center relative -top-60 left-36">
-          {levelName}
-        </span>
-        <span className="bg-blue-300 rounded-2xl w-2/6 py-1 text-white text-sm text-center relative -top-60 left-36">
-          {typeName}
-        </span>
 
         <div className=" flex flex-col gap-3 w-5/6 mx-auto">
           <h3 className=" not-italic mobile:font-bold font-semibold mobile:text-xl text-sm mobile:leading-9 leading-6 text-right text-black">

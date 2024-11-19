@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 const index = () => {
+  const [filterSearch, setFilterSearch] = useState();
+  const searchText = (event) => {
+    setFilterSearch(event.target.value);
+  };
+
+  // console.log(filterSearch);
+  // let dataSearched = courses?.courseFilterDtos.filter((item) => {
+  //   return;
+  // });
   return (
     <>
       <div className="hidden mobile:block border border-gray-400 dark:bg-gray-600 w-1/4 h-2/4 rounded-3xl mt-20 flex flex-col items-end gap-6 mr-5">
@@ -8,7 +17,7 @@ const index = () => {
           فیلتر
         </h1>
         {/* جست جو */}
-        <div className="w-11/12 mx-auto mt-6">
+        <div className="w-10/12 mx-auto mt-6">
           <div className="flex flex-row justify-end gap-2">
             <span className="text-lg font-serif text-black dark:text-white">
               جستجو
@@ -18,19 +27,50 @@ const index = () => {
               src="\imgLand\search-01-stroke-rounded 1.png"
             ></img>
           </div>
-          <div className="mt-2">
+          <div className="mt-2 ">
             <input
-              className="bg-gray-200 w-full p-3 rounded-xl"
+              className="bg-gray-200 w-full p-3 rounded-xl text-right"
               type="text"
+              value={filterSearch}
+              onChange={searchText.bind(this)}
             ></input>
-            <img
+            {/* <img
               className="bg-blue-600 rounded-xl -mt-10 ml-1 p-2"
               src="\imgLand\search-01-stroke-rounded 2.png"
-            ></img>
+            ></img> */}
+
+            <button
+              className="relative bottom-12 right-28 text-blue-600 w-12 h-[47px] rounded-xl bg-[#3772FF]"
+              // onClick={handleSearch}
+            >
+              <div className="flex justify-center items-center">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.5 17.5L22 22"
+                    stroke="#FEFDFF"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C15.9706 20 20 15.9706 20 11Z"
+                    stroke="#FEFDFF"
+                    strokeWidth="1.5"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+            </button>
           </div>
         </div>
         {/* دسته یندی */}
-        <div className="w-11/12 mx-auto mt-6">
+        <div className="w-10/12 mx-auto mt-2">
           <div className="flex flex-row justify-end gap-2">
             <span className="text-lg font-serif text-black dark:text-white">
               دسته بندی
@@ -42,7 +82,7 @@ const index = () => {
           </div>
           <div className="mt-2">
             <input
-              className="bg-gray-200 w-full p-3 rounded-xl"
+              className="bg-gray-200 w-full p-3 rounded-xl text-right"
               type="text"
             ></input>
             <img
@@ -52,7 +92,7 @@ const index = () => {
           </div>
         </div>
         {/* سطح آموزشی */}
-        <div className="w-11/12 mx-auto mt-6">
+        <div className="w-10/12 mx-auto mt-2">
           <div className="flex flex-row justify-end gap-2">
             <span className="text-lg font-serif text-black dark:text-white">
               سطح آموزشی
@@ -64,7 +104,7 @@ const index = () => {
           </div>
           <div className="mt-2">
             <input
-              className="bg-gray-200 w-full p-3 rounded-xl"
+              className="bg-gray-200 w-full p-3 rounded-xl text-right"
               type="text"
             ></input>
             <img
@@ -74,7 +114,7 @@ const index = () => {
           </div>
         </div>
         {/* اساتید */}
-        <div className="w-11/12 mx-auto mt-6">
+        <div className="w-10/12 mx-auto mt-2">
           <div className="flex flex-row justify-end gap-2">
             <span className="text-lg font-serif text-black dark:text-white">
               اساتید
@@ -86,7 +126,7 @@ const index = () => {
           </div>
           <div className="mt-2">
             <input
-              className="bg-gray-200 w-full p-3 rounded-xl"
+              className="bg-gray-200 w-full p-3 rounded-xl text-right"
               type="text"
             ></input>
             <img
